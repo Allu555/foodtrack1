@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useEffect, useRef } from 'react';
@@ -6,19 +5,10 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Restaurant } from '@/lib/restaurants';
 
-// Default icon setup to fix asset loading issue in Next.js
+// Manually import the icon images
 import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png';
 import markerIcon from 'leaflet/dist/images/marker-icon.png';
 import markerShadow from 'leaflet/dist/images/marker-shadow.png';
-
-// @ts-ignore
-delete L.Icon.Default.prototype._getIconUrl;  
-L.Icon.Default.mergeOptions({
-    iconUrl: markerIcon.src,
-    iconRetinaUrl: markerIcon2x.src,
-    shadowUrl: markerShadow.src,
-});
-
 
 interface MapProps {
   restaurants: Restaurant[];
@@ -28,6 +18,17 @@ interface MapProps {
 export function RestaurantMap({ restaurants, className }: MapProps) {
     const mapRef = useRef<L.Map | null>(null);
     const containerRef = useRef<HTMLDivElement>(null);
+
+    // Create a custom icon to avoid issues with default icon paths in Next.js
+    const defaultIcon = L.icon({
+        iconUrl: markerIcon.src,
+        iconRetinaUrl: markerIcon2x.src,
+        shadowUrl: markerShadow.src,
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+    });
 
     useEffect(() => {
         if (mapRef.current || !containerRef.current) return;
@@ -55,7 +56,7 @@ export function RestaurantMap({ restaurants, className }: MapProps) {
                     <a href="${directionsUrl}" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline" style="font-size: 0.875rem;">View on Google Maps</a>
                 </div>
             `;
-            L.marker([restaurant.location.lat, restaurant.location.lng])
+            L.marker([restaurant.location.lat, restaurant.location.lng], { icon: defaultIcon }) // Use the custom icon here
                 .addTo(map)
                 .bindPopup(popupContent);
         });
@@ -72,7 +73,7 @@ export function RestaurantMap({ restaurants, className }: MapProps) {
                 mapRef.current = null;
             }
         };
-    }, [restaurants]);
+    }, [restaurants, defaultIcon]);
 
     return <div ref={containerRef} className={className} />;
 }
