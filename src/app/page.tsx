@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { restaurants, type Restaurant } from '@/lib/restaurants';
 import { Header } from '@/components/header';
 import { RestaurantCard } from '@/components/restaurant-card';
@@ -24,9 +23,9 @@ export default function Home() {
         <h2 className="text-3xl font-bold tracking-tight mb-6 font-headline">All Restaurants</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
           {restaurants.map((restaurant: Restaurant) => (
-            <Link key={restaurant.id} href={`/restaurants/${restaurant.id}`} className="group block">
+            <div key={restaurant.id} className="group">
                <RestaurantCard restaurant={restaurant} />
-            </Link>
+            </div>
           ))}
         </div>
       </main>
