@@ -1,6 +1,7 @@
 
 
 
+
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -12,6 +13,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
 import { Separator } from '@/components/ui/separator';
+import { AnalyzeImageDialog } from '@/components/analyze-image-dialog';
 
 type RestaurantPageProps = {
   params: {
@@ -95,7 +97,7 @@ export default function RestaurantPage({ params }: RestaurantPageProps) {
                   <CarouselContent>
                     {restaurant.gallery.map((image, index) => (
                       <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/2">
-                        <div className="p-1">
+                        <div className="p-1 group relative">
                             <div className="aspect-[4/3] relative rounded-lg overflow-hidden shadow-lg">
                                <Image
                                 src={image.imageUrl}
@@ -105,6 +107,9 @@ export default function RestaurantPage({ params }: RestaurantPageProps) {
                                 className="object-cover"
                                 sizes="(max-width: 768px) 100vw, 50vw"
                                />
+                            </div>
+                            <div className="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                                <AnalyzeImageDialog imageUrl={image.imageUrl} />
                             </div>
                         </div>
                       </CarouselItem>
