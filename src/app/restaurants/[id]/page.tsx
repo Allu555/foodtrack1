@@ -62,9 +62,9 @@ export default function RestaurantPage({ params }: RestaurantPageProps) {
                <Badge 
                 className={cn(
                   "text-base",
-                  restaurant.category === 'Veg' && 'bg-green-600/90 text-white',
-                  restaurant.category === 'Non-Veg' && 'bg-red-600/90 text-white',
-                  restaurant.category === 'Mixed' && 'bg-yellow-600/90 text-white'
+                  restaurant.category === 'Veg' && 'bg-green-700 text-green-50 border-green-600',
+                  restaurant.category === 'Non-Veg' && 'bg-red-700 text-red-50 border-red-600',
+                  restaurant.category === 'Mixed' && 'bg-yellow-700 text-yellow-50 border-yellow-600'
                 )}
               >
                 {restaurant.category}
@@ -133,5 +133,3 @@ export default function RestaurantPage({ params }: RestaurantPageProps) {
     </div>
   );
 }
-
-    
