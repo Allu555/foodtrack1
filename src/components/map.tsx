@@ -6,31 +6,19 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Restaurant } from '@/lib/restaurants';
 
-// Orange marker icon
-const orangeIcon = L.divIcon({
-    html: `
-        <svg
-            width="32"
-            height="32"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-            style="color: #F59E0B;"
-        >
-            <path
-                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5-2.5-1.12 2.5-2.5 2.5z"
-                fill="currentColor"
-            />
-             <path
-                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5-2.5-1.12 2.5-2.5 2.5z"
-                fill="black"
-                opacity="0.15"
-            />
-        </svg>`,
-    className: '',
-    iconSize: [32, 32],
-    iconAnchor: [16, 32],
-    popupAnchor: [0, -32]
+// Default icon setup to fix asset loading issue in Next.js
+import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png';
+import markerIcon from 'leaflet/dist/images/marker-icon.png';
+import markerShadow from 'leaflet/dist/images/marker-shadow.png';
+
+// @ts-ignore
+delete L.Icon.Default.prototype._getIconUrl;  
+L.Icon.Default.mergeOptions({
+    iconUrl: markerIcon.src,
+    iconRetinaUrl: markerIcon2x.src,
+    shadowUrl: markerShadow.src,
 });
+
 
 interface MapProps {
   restaurants: Restaurant[];
@@ -67,7 +55,7 @@ export function RestaurantMap({ restaurants, className }: MapProps) {
                     <a href="${directionsUrl}" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline" style="font-size: 0.875rem;">View on Google Maps</a>
                 </div>
             `;
-            L.marker([restaurant.location.lat, restaurant.location.lng], { icon: orangeIcon })
+            L.marker([restaurant.location.lat, restaurant.location.lng])
                 .addTo(map)
                 .bindPopup(popupContent);
         });
