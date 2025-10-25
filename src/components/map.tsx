@@ -1,12 +1,12 @@
 "use client";
 
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import 'leaflet/dist/leaflet.css';
+import { useEffect, useRef } from 'react';
 import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
 import { Restaurant } from '@/lib/restaurants';
 import Link from 'next/link';
 
-// Fix for default icon not showing in React-Leaflet
+// Fix for default icon not showing in Leaflet
 delete (L.Icon.Default.prototype as any)._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
@@ -20,33 +20,44 @@ interface MapProps {
 }
 
 export function RestaurantMap({ restaurants, className }: MapProps) {
-    if (!restaurants || restaurants.length === 0) {
-        return <div className={className}>No restaurants to display on map.</div>;
-    }
+    const mapRef = useRef<L.Map | null>(null);
+    const containerRef = useRef<HTMLDivElement>(null);
 
-    const latitudes = restaurants.map(r => r.location.lat);
-    const longitudes = restaurants.map(r => r.location.lng);
-    const centerLat = latitudes.reduce((a, b) => a + b, 0) / latitudes.length;
-    const centerLng = longitudes.reduce((a, b) => a + b, 0) / longitudes.length;
-    const center: [number, number] = [centerLat, centerLng];
+    useEffect(() => {
+        if (mapRef.current || !containerRef.current) return; // Initialize map only once
 
-    return (
-        <MapContainer center={center} zoom={10} scrollWheelZoom={false} className={className}>
-            <TileLayer
-                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            />
-            {restaurants.map(restaurant => (
-                <Marker key={restaurant.id} position={[restaurant.location.lat, restaurant.location.lng]}>
-                    <Popup>
-                        <div className="font-bold">{restaurant.name}</div>
-                        <p>{restaurant.cuisine}</p>
-                        <Link href={`/restaurants/${restaurant.id}`} className="text-primary hover:underline">
-                        View Details
-                        </Link>
-                    </Popup>
-                </Marker>
-            ))}
-        </MapContainer>
-    );
+        const latitudes = restaurants.map(r => r.location.lat);
+        const longitudes = restaurants.map(r => r.location.lng);
+        const centerLat = latitudes.reduce((a, b) => a + b, 0) / latitudes.length;
+        const centerLng = longitudes.reduce((a, b) => a + b, 0) / longitudes.length;
+        const center: [number, number] = [centerLat, centerLng];
+
+        const map = L.map(containerRef.current).setView(center, 10);
+        mapRef.current = map;
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        restaurants.forEach(restaurant => {
+            const popupContent = `
+                <div class="font-bold">${restaurant.name}</div>
+                <p>${restaurant.cuisine}</p>
+                <a href="/restaurants/${restaurant.id}" class="text-primary hover:underline">View Details</a>
+            `;
+            L.marker([restaurant.location.lat, restaurant.location.lng])
+                .addTo(map)
+                .bindPopup(popupContent);
+        });
+
+        // Cleanup function to run when component unmounts
+        return () => {
+            if (mapRef.current) {
+                mapRef.current.remove();
+                mapRef.current = null;
+            }
+        };
+    }, [restaurants]); // Only re-run if restaurants change, but guard ensures it only runs once
+
+    return <div ref={containerRef} className={className} />;
 }
