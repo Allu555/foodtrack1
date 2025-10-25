@@ -2,13 +2,7 @@ import Link from 'next/link';
 import { restaurants, type Restaurant } from '@/lib/restaurants';
 import { Header } from '@/components/header';
 import { RestaurantCard } from '@/components/restaurant-card';
-import { RestaurantMap } from '@/components/map';
-import dynamic from 'next/dynamic';
-
-const DynamicMap = dynamic(() => import('@/components/map').then(mod => mod.RestaurantMap), { 
-  ssr: false,
-  loading: () => <div className="h-[400px] bg-muted/50 rounded-lg animate-pulse" />
-});
+import { MapSection } from '@/components/map-section';
 
 export default function Home() {
   return (
@@ -24,7 +18,7 @@ export default function Home() {
         
         <div className="mb-12">
             <h2 className="text-3xl font-bold tracking-tight mb-6 font-headline">High-Demand Spots</h2>
-            <DynamicMap restaurants={restaurants} className="h-[400px] w-full rounded-lg shadow-lg" />
+            <MapSection restaurants={restaurants} />
         </div>
 
         <h2 className="text-3xl font-bold tracking-tight mb-6 font-headline">All Restaurants</h2>
