@@ -22,7 +22,7 @@ const findImage = (id: string): ImagePlaceholder => {
     return image;
 }
 
-export const restaurants: Restaurant[] = [
+const allRestaurants: Restaurant[] = [
   {
     id: 'verde-bistro',
     name: 'Verde Bistro',
@@ -102,3 +102,5 @@ export const restaurants: Restaurant[] = [
     ],
   },
 ];
+
+export const restaurants: Restaurant[] = allRestaurants.filter(r => r.address.includes('Kochi'));
