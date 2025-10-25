@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
@@ -20,6 +21,8 @@ interface MapProps {
 }
 
 export function RestaurantMap({ restaurants, className }: MapProps) {
+    const [map, setMap] = useState<L.Map | null>(null);
+
     if (!restaurants || restaurants.length === 0) {
         return <div className={className}>No restaurants to display on map.</div>;
     }
@@ -30,8 +33,12 @@ export function RestaurantMap({ restaurants, className }: MapProps) {
     const centerLat = latitudes.reduce((a, b) => a + b, 0) / latitudes.length;
     const centerLng = longitudes.reduce((a, b) => a + b, 0) / longitudes.length;
 
+    if (map) {
+      map.setView([centerLat, centerLng]);
+    }
+
   return (
-    <MapContainer center={[centerLat, centerLng]} zoom={10} scrollWheelZoom={false} className={className}>
+    <MapContainer whenCreated={setMap} center={[centerLat, centerLng]} zoom={10} scrollWheelZoom={false} className={className}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
