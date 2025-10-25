@@ -1,9 +1,9 @@
+
 "use client";
 
 import { useEffect, useRef } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import 'leaflet-routing-machine';
 import { Restaurant } from '@/lib/restaurants';
 
 const defaultIcon = L.icon({
@@ -28,6 +28,9 @@ export function RestaurantMap({ restaurants, className }: MapProps) {
 
     useEffect(() => {
         if (mapRef.current || !containerRef.current) return;
+        
+        // Dynamically import leaflet-routing-machine here
+        import('leaflet-routing-machine');
 
         const latitudes = restaurants.map(r => r.location.lat);
         const longitudes = restaurants.map(r => r.location.lng);
@@ -47,10 +50,8 @@ export function RestaurantMap({ restaurants, className }: MapProps) {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
         }).addTo(map);
         
-        // Expose a function to the window object to handle directions
-        // This is a workaround to call component logic from the string-based popup
         (window as any).showDirections = (lat: number, lng: number) => {
-            if (!mapRef.current) return;
+            if (!mapRef.current || !L.Routing) return;
             const map = mapRef.current;
 
             if (routingControlRef.current) {
@@ -67,11 +68,11 @@ export function RestaurantMap({ restaurants, className }: MapProps) {
                         L.latLng(lat, lng)
                     ],
                     routeWhileDragging: true,
-                    show: false, // We will show a summary, but not the full itinerary
+                    show: false,
                     lineOptions: {
                         styles: [{ color: '#64B5F6', opacity: 1, weight: 5 }]
                     },
-                    createMarker: function() { return null; } // Hide default start/end markers
+                    createMarker: function() { return null; }
                 }).addTo(map);
                 
                 routingControlRef.current = control;
@@ -108,7 +109,6 @@ export function RestaurantMap({ restaurants, className }: MapProps) {
                 mapRef.current.remove();
                 mapRef.current = null;
             }
-            // Clean up the global function
             delete (window as any).showDirections;
         };
     }, [restaurants]);
