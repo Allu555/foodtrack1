@@ -30,20 +30,28 @@ export default function RestaurantPage({ params }: RestaurantPageProps) {
 
   useEffect(() => {
     if (restaurant) {
-      setIsGenerating(true);
-      const prompt = `A realistic, high-quality photo of the exterior of ${restaurant.name}, a ${restaurant.cuisine} restaurant. ${restaurant.description}`;
-      generateImage({ prompt })
-        .then((result: GenerateImageOutput) => {
-          setHeroImageUrl(result.imageUrl);
-        })
-        .catch(error => {
-          console.error("Failed to generate image:", error);
-          // Fallback to the placeholder if generation fails
-          setHeroImageUrl(restaurant.heroImage.imageUrl);
-        })
-        .finally(() => {
-          setIsGenerating(false);
-        });
+      // Check if we have a generated image in session storage to avoid re-generating
+      const storedImageUrl = sessionStorage.getItem(`hero-${restaurant.id}`);
+      if (storedImageUrl) {
+        setHeroImageUrl(storedImageUrl);
+        setIsGenerating(false);
+      } else {
+        setIsGenerating(true);
+        const prompt = `A realistic, high-quality photo of the exterior of ${restaurant.name}, a ${restaurant.cuisine} restaurant. ${restaurant.description}`;
+        generateImage({ prompt })
+          .then((result: GenerateImageOutput) => {
+            setHeroImageUrl(result.imageUrl);
+            sessionStorage.setItem(`hero-${restaurant.id}`, result.imageUrl); // Store the generated image URL
+          })
+          .catch(error => {
+            console.error("Failed to generate image:", error);
+            // Fallback to the placeholder if generation fails
+            setHeroImageUrl(restaurant.heroImage.imageUrl);
+          })
+          .finally(() => {
+            setIsGenerating(false);
+          });
+      }
     }
   }, [restaurant]);
 
@@ -63,8 +71,7 @@ export default function RestaurantPage({ params }: RestaurantPageProps) {
             heroImageUrl && (
                 <Image
                     src={heroImageUrl}
-                    alt={restaurant.heroImage.description}
-                    data-ai-hint={restaurant.heroImage.imageHint}
+                    alt={restaurant.name}
                     fill
                     className="object-cover"
                     priority
