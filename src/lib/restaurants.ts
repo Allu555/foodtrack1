@@ -108,6 +108,45 @@ const allRestaurants: Restaurant[] = [
       findImage('malabar-gallery-2'),
     ],
   },
+  {
+    id: 'fort-house-restaurant',
+    name: 'Fort House Restaurant',
+    cuisine: 'Kerala & Continental',
+    description: 'A charming seaside restaurant known for its serene ambiance and delicious fusion cuisine.',
+    address: '2/6A, Calvathy Road, Fort Kochi, Kochi, Kerala 682001, India',
+    location: { lat: 9.969, lng: 76.242 },
+    heroImage: findImage('fort-house-hero'),
+    gallery: [
+      findImage('fort-house-gallery-1'),
+      findImage('fort-house-gallery-2'),
+    ],
+  },
+  {
+    id: 'dal-roti',
+    name: 'Dal Roti',
+    cuisine: 'North Indian',
+    description: 'Authentic North Indian food with a specialty in Kathi Rolls. A local favorite in Fort Kochi.',
+    address: '1/293, Lilly Street, Fort Kochi, Kochi, Kerala 682001, India',
+    location: { lat: 9.966, lng: 76.242 },
+    heroImage: findImage('dal-roti-hero'),
+    gallery: [
+      findImage('dal-roti-gallery-1'),
+      findImage('dal-roti-gallery-2'),
+    ],
+  },
+  {
+    id: 'kashi-art-cafe',
+    name: 'Kashi Art Cafe',
+    cuisine: 'Cafe & Contemporary',
+    description: 'A unique space that combines an art gallery with a beautiful cafe, known for its breakfast and homemade cakes.',
+    address: 'Burgher Street, Fort Nagar, Fort Kochi, Kochi, Kerala 682001, India',
+    location: { lat: 9.964, lng: 76.244 },
+    heroImage: findImage('kashi-cafe-hero'),
+    gallery: [
+      findImage('kashi-cafe-gallery-1'),
+      findImage('kashi-cafe-gallery-2'),
+    ],
+  },
 ];
 
 export const restaurants: Restaurant[] = allRestaurants.filter(r => r.address.includes('Kochi'));
