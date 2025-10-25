@@ -13,12 +13,6 @@ type RestaurantPageProps = {
   };
 };
 
-export async function generateStaticParams() {
-  return restaurants.map((restaurant) => ({
-    id: restaurant.id,
-  }));
-}
-
 const getRestaurant = (id: string): Restaurant | undefined => {
   return restaurants.find((r) => r.id === id);
 };
