@@ -6,6 +6,7 @@ import { restaurants } from '@/lib/restaurants';
 import { RestaurantCard } from '@/components/restaurant-card';
 import { Header } from '@/components/header';
 import { Button } from '@/components/ui/button';
+import { ArrowLeft } from 'lucide-react';
 
 export default function FavoritesPage() {
   const { favorites, isLoaded } = useFavorites();
@@ -16,9 +17,17 @@ export default function FavoritesPage() {
     <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-1 container mx-auto p-4 md:p-8">
-        <h1 className="text-4xl md:text-5xl font-bold tracking-tighter mb-8 font-headline">
-          Your Favorites
-        </h1>
+        <div className="flex items-center mb-8">
+          <Button asChild variant="ghost" size="icon" className="mr-4">
+            <Link href="/">
+              <ArrowLeft />
+              <span className="sr-only">Back</span>
+            </Link>
+          </Button>
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tighter font-headline">
+            Your Favorites
+          </h1>
+        </div>
         
         {!isLoaded && (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
