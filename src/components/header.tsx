@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Heart } from "lucide-react";
+import { Heart, Bot } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Header() {
@@ -9,7 +9,13 @@ export function Header() {
         <Link href="/" className="text-2xl font-bold font-headline tracking-tighter">
           Gastronome
         </Link>
-        <nav>
+        <nav className="flex items-center gap-2">
+          <Button asChild variant="ghost" size="icon">
+            <Link href="/generate">
+              <Bot />
+              <span className="sr-only">Generate Image</span>
+            </Link>
+          </Button>
           <Button asChild variant="ghost" size="icon">
             <Link href="/favorites">
               <Heart />
