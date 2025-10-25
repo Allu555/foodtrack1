@@ -5,11 +5,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { restaurants, Restaurant } from '@/lib/restaurants';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft, MapPin, Star } from 'lucide-react';
+import { ArrowLeft, MapPin, Phone, Star } from 'lucide-react';
 import { FavoriteButton } from '@/components/favorite-button';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
+import { Separator } from '@/components/ui/separator';
 
 type RestaurantPageProps = {
   params: {
@@ -73,60 +74,83 @@ export default function RestaurantPage({ params }: RestaurantPageProps) {
           </div>
         </div>
 
-        <div className="container mx-auto px-4 md:px-8 mt-12 max-w-4xl">
-          <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-start">
-            <div className="flex-1">
+        <div className="container mx-auto px-4 md:px-8 mt-12 max-w-5xl">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div className="md:col-span-2">
               <h2 className="text-3xl font-bold font-headline mb-4">About</h2>
-              <p className="text-lg leading-relaxed text-foreground/80">
+              <p className="text-lg leading-relaxed text-foreground/80 mb-8">
                 {restaurant.description}
               </p>
-            </div>
-            <div className="w-full md:w-auto flex flex-col gap-2">
-                <Button asChild size="lg" className="w-full md:w-auto bg-accent text-accent-foreground hover:bg-accent/90">
-                    <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
-                        <MapPin className="mr-2 h-5 w-5" />
-                        Get Directions
-                    </a>
-                </Button>
-                 <Button asChild size="lg" variant="outline" className="w-full md:w-auto">
-                    <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
-                        <Star className="mr-2 h-5 w-5" />
-                        View Reviews on Google
-                    </a>
-                </Button>
-            </div>
-          </div>
-
-          <div className="mt-16">
-            <h2 className="text-3xl font-bold font-headline mb-6 text-center">Gallery</h2>
-            <Carousel
-              opts={{
-                align: 'start',
-                loop: true,
-              }}
-              className="w-full"
-            >
-              <CarouselContent>
-                {restaurant.gallery.map((image, index) => (
-                  <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/2">
-                    <div className="p-1">
-                        <div className="aspect-[4/3] relative rounded-lg overflow-hidden shadow-lg">
-                           <Image
-                            src={image.imageUrl}
-                            alt={image.description}
-                            data-ai-hint={image.imageHint}
-                            fill
-                            className="object-cover"
-                            sizes="(max-width: 768px) 100vw, 50vw"
-                           />
+              
+               <div className="mt-12">
+                <h2 className="text-3xl font-bold font-headline mb-6 text-center">Gallery</h2>
+                <Carousel
+                  opts={{
+                    align: 'start',
+                    loop: true,
+                  }}
+                  className="w-full"
+                >
+                  <CarouselContent>
+                    {restaurant.gallery.map((image, index) => (
+                      <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/2">
+                        <div className="p-1">
+                            <div className="aspect-[4/3] relative rounded-lg overflow-hidden shadow-lg">
+                               <Image
+                                src={image.imageUrl}
+                                alt={image.description}
+                                data-ai-hint={image.imageHint}
+                                fill
+                                className="object-cover"
+                                sizes="(max-width: 768px) 100vw, 50vw"
+                               />
+                            </div>
                         </div>
-                    </div>
-                  </CarouselItem>
-                ))}
-              </CarouselContent>
-              <CarouselPrevious className="ml-14" />
-              <CarouselNext className="mr-14" />
-            </Carousel>
+                      </CarouselItem>
+                    ))}
+                  </CarouselContent>
+                  <CarouselPrevious className="ml-14" />
+                  <CarouselNext className="mr-14" />
+                </Carousel>
+              </div>
+            </div>
+
+            <div className="md:col-span-1">
+               <h2 className="text-3xl font-bold font-headline mb-4">Details</h2>
+               <div className="flex flex-col gap-4 rounded-lg border p-4 bg-card/50">
+                  <div className="flex items-start gap-4">
+                      <MapPin className="h-6 w-6 mt-1 text-primary"/>
+                      <div>
+                          <p className="font-semibold text-lg">Address</p>
+                          <p className="text-foreground/80">{restaurant.address}</p>
+                      </div>
+                  </div>
+                  <Separator />
+                   <div className="flex items-start gap-4">
+                      <Phone className="h-6 w-6 mt-1 text-primary"/>
+                      <div>
+                          <p className="font-semibold text-lg">Phone</p>
+                          <a href={`tel:${restaurant.phone}`} className="text-foreground/80 hover:underline">{restaurant.phone}</a>
+                      </div>
+                  </div>
+                  <Separator />
+                   <div className="flex items-start gap-4">
+                      <Star className="h-6 w-6 mt-1 text-primary"/>
+                      <div>
+                          <p className="font-semibold text-lg">Reviews</p>
+                          <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:underline">View on Google Maps</a>
+                      </div>
+                  </div>
+               </div>
+                <div className="mt-6">
+                    <Button asChild size="lg" className="w-full bg-accent text-accent-foreground hover:bg-accent/90">
+                        <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
+                            <MapPin className="mr-2 h-5 w-5" />
+                            Get Directions
+                        </a>
+                    </Button>
+                </div>
+            </div>
           </div>
         </div>
       </main>
