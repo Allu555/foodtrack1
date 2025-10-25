@@ -3,781 +3,781 @@
     {
       "id": "verde-hero",
       "description": "The bright and airy interior of Verde Bistro, with large windows and plenty of plants.",
-      "imageUrl": "https://picsum.photos/seed/verde-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1729394405518-eaf2a0203aa7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyZXN0YXVyYW50JTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYxMzU5NzgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "restaurant interior"
     },
     {
       "id": "verde-gallery-1",
       "description": "A close-up shot of Verde Bistro's signature avocado toast.",
-      "imageUrl": "https://picsum.photos/seed/verde-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1588137378633-dea1336ce1e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhdm9jYWRvJTIwdG9hc3R8ZW58MHx8fHwxNzYxMzkzODQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "avocado toast"
     },
     {
       "id": "verde-gallery-2",
       "description": "A colorful salad bowl from Verde Bistro.",
-      "imageUrl": "https://picsum.photos/seed/verde-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1646487793655-bbf280273d2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzYWxhZCUyMGJvd2x8ZW58MHx8fHwxNzYxMzE2MjA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "salad bowl"
     },
     {
       "id": "ember-hero",
       "description": "The warm, rustic interior of Ember & Ash, with a visible wood-fired oven.",
-      "imageUrl": "https://picsum.photos/seed/ember-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1737140790442-01f1d6d0b022?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxydXN0aWMlMjByZXN0YXVyYW50fGVufDB8fHx8MTc2MTM5NTIzMXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "rustic restaurant"
     },
     {
       "id": "ember-gallery-1",
       "description": "A perfectly grilled steak from Ember & Ash.",
-      "imageUrl": "https://picsum.photos/seed/ember-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1657143375273-75371e23f7f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmlsbGVkJTIwc3RlYWt8ZW58MHx8fHwxNzYxMzYyNTE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "grilled steak"
     },
     {
       "id": "ember-gallery-2",
       "description": "A chef preparing food near the wood-fired oven at Ember & Ash.",
-      "imageUrl": "https://picsum.photos/seed/ember-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1722152667178-be659e54bffc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjaGVmJTIwY29va2luZ3xlbnwwfHx8fDE3NjEzOTUyMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "chef cooking"
     },
     {
       "id": "azure-hero",
       "description": "A modern, minimalist dining room at Azure Seafood with views of the water.",
-      "imageUrl": "https://picsum.photos/seed/azure-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1719750488901-076ffef0403c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzZWFmb29kJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjEzOTUyMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "seafood restaurant"
     },
     {
       "id": "azure-gallery-1",
       "description": "A platter of fresh oysters from Azure Seafood.",
-      "imageUrl": "https://picsum.photos/seed/azure-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1710106459495-b66458f7df94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmcmVzaCUyMG95c3RlcnN8ZW58MHx8fHwxNzYxMzM2NDExfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "fresh oysters"
     },
     {
       "id": "azure-gallery-2",
       "description": "A beautifully plated fish dish from Azure Seafood.",
-      "imageUrl": "https://picsum.photos/seed/azure-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1627924275601-192d69e3529b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwbGF0ZWQlMjBmaXNofGVufDB8fHx8MTc2MTM5NTIzMXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "plated fish"
     },
     {
       "id": "terra-hero",
       "description": "A cozy, dimly lit interior of Terra Cotta, an Italian restaurant.",
-      "imageUrl": "https://picsum.photos/seed/terra-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxpdGFsaWFuJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjEyODk3MzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "italian restaurant"
     },
     {
       "id": "terra-gallery-1",
       "description": "A classic pizza margherita from Terra Cotta.",
-      "imageUrl": "https://picsum.photos/seed/terra-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwaXp6YSUyMG1hcmdoZXJpdGF8ZW58MHx8fHwxNzYxMzk1MjMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pizza margherita"
     },
     {
       "id": "terra-gallery-2",
       "description": "A bowl of handmade pasta from Terra Cotta.",
-      "imageUrl": "https://picsum.photos/seed/terra-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1663094612635-cc34fbe005d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwYXN0YSUyMGJvd2x8ZW58MHx8fHwxNzYxMzg5NTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pasta bowl"
     },
     {
       "id": "kayaloram-hero",
       "description": "A beautiful restaurant on the Kerala backwaters at sunset.",
-      "imageUrl": "https://picsum.photos/seed/kayaloram-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1633145284780-c8fda4f11464?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxrZXJhbGElMjBiYWNrd2F0ZXJzfGVufDB8fHx8MTc2MTM5OTI1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "kerala backwaters"
     },
     {
       "id": "kayaloram-gallery-1",
       "description": "A delicious plate of Kerala style fish curry.",
-      "imageUrl": "https://picsum.photos/seed/kayaloram-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1567982047351-76b6f93e38ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmaXNoJTIwY3Vycnl8ZW58MHx8fHwxNzYxMzk5MjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "fish curry"
     },
     {
       "id": "kayaloram-gallery-2",
       "description": "Freshly caught grilled fish served on a banana leaf.",
-      "imageUrl": "https://picsum.photos/seed/kayaloram-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1661939252817-ebb73304f4c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxncmlsbGVkJTIwZmlzaHxlbnwwfHx8fDE3NjEzMjI4MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "grilled fish"
     },
     {
       "id": "malabar-hero",
       "description": "The entrance to a traditional Kerala restaurant with intricate woodwork.",
-      "imageUrl": "https://picsum.photos/seed/malabar-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1751308384704-69fc311bdc5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxrZXJhbGElMjByZXN0YXVyYW50fGVufDB8fHx8MTc2MTM5OTI1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "kerala restaurant"
     },
     {
       "id": "malabar-gallery-1",
       "description": "A traditional Kerala sadhya (feast) served on a banana leaf with many small dishes.",
-      "imageUrl": "https://picsum.photos/seed/malabar-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1548604303-0f41381e7a6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxrZXJhbGElMjBzYWRoeWF8ZW58MHx8fHwxNzYxMzk5MjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "kerala sadhya"
     },
     {
       "id": "malabar-gallery-2",
       "description": "A close-up of a crispy dosa with chutneys.",
-      "imageUrl": "https://picsum.photos/seed/malabar-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1727018877043-2b0372f64d20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkb3NhJTIwY2h1dG5leXxlbnwwfHx8fDE3NjEzOTkyNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "dosa chutney"
     },
     {
       "id": "fort-house-hero",
       "description": "A seaside view from the Fort House restaurant in Kochi.",
-      "imageUrl": "https://picsum.photos/seed/fort-house-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1677842192704-a29723d5342d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzZWFzaWRlJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjEzOTkyNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "seaside restaurant"
     },
     {
       "id": "fort-house-gallery-1",
       "description": "A plate of appam and stew, a classic Kerala breakfast.",
-      "imageUrl": "https://picsum.photos/seed/fort-house-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1695864529372-9c9901fcb66f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhcHBhbSUyMHN0ZXd8ZW58MHx8fHwxNzYxMzk5MjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "appam stew"
     },
     {
       "id": "fort-house-gallery-2",
       "description": "A platter of fried seafood at a beachside table.",
-      "imageUrl": "https://picsum.photos/seed/fort-house-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1695606453151-e58a72d04d28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzZWFmb29kJTIwcGxhdHRlcnxlbnwwfHx8fDE3NjEzMzgxODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "seafood platter"
     },
     {
       "id": "dal-roti-hero",
       "description": "The vibrant and colorful interior of Dal Roti restaurant.",
-      "imageUrl": "https://picsum.photos/seed/dal-roti-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1574178778020-e3ac6b70b358?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxpbmRpYW4lMjByZXN0YXVyYW50fGVufDB8fHx8MTc2MTMxMzUyOHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "indian restaurant"
     },
     {
       "id": "dal-roti-gallery-1",
       "description": "A close-up of a variety of North Indian kathis rolls.",
-      "imageUrl": "https://picsum.photos/seed/dal-roti-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1610250086692-f4a40fd85420?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxrYXRoaSUyMHJvbGxzfGVufDB8fHx8MTc2MTM5OTI1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "kathi rolls"
     },
     {
       "id": "dal-roti-gallery-2",
       "description": "A thali with various North Indian curries, bread, and rice.",
-      "imageUrl": "https://picsum.photos/seed/dal-roti-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1725167260486-255a40ce00e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpbmRpYW4lMjB0aGFsaXxlbnwwfHx8fDE3NjEzOTg3MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "indian thali"
     },
     {
       "id": "kashi-cafe-hero",
       "description": "The artistic and rustic courtyard of Kashi Art Cafe.",
-      "imageUrl": "https://picsum.photos/seed/kashi-cafe-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1658386321667-5dbf6ac21f9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcnQlMjBjYWZlfGVufDB8fHx8MTc2MTM5OTI1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "art cafe"
     },
     {
       "id": "kashi-cafe-gallery-1",
       "description": "A slice of homemade chocolate cake and coffee.",
-      "imageUrl": "https://picsum.photos/seed/kashi-cafe-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaG9jb2xhdGUlMjBjYWtlfGVufDB8fHx8MTc2MTM2MDUxOHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "chocolate cake"
     },
     {
       "id": "kashi-cafe-gallery-2",
       "description": "A person reading a book in the serene cafe environment.",
-      "imageUrl": "https://picsum.photos/seed/kashi-cafe-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1530457444374-24a7042c244c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjYWZlJTIwcmVhZGluZ3xlbnwwfHx8fDE3NjEzOTkyNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cafe reading"
     },
     {
       "id": "paragon-hero",
       "description": "The bustling and classic interior of Paragon Restaurant.",
-      "imageUrl": "https://picsum.photos/seed/paragon-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1761245193924-53a5a4bed9ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjbGFzc2ljJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjEzOTkyNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "classic restaurant"
     },
     {
       "id": "paragon-gallery-1",
       "description": "A signature biryani dish from Paragon.",
-      "imageUrl": "https://picsum.photos/seed/paragon-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1752673508949-f4aeeaef75f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiaXJ5YW5pJTIwZGlzaHxlbnwwfHx8fDE3NjEzOTkyNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "biryani dish"
     },
     {
       "id": "paragon-gallery-2",
       "description": "A close-up of fish mango curry.",
-      "imageUrl": "https://picsum.photos/seed/paragon-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1567982047351-76b6f93e38ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmaXNoJTIwY3Vycnl8ZW58MHx8fHwxNzYxMzk5MjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "fish curry"
     },
     {
       "id": "fusion-bay-hero",
       "description": "A view of the sea from Fusion Bay restaurant.",
-      "imageUrl": "https://picsum.photos/seed/fusion-bay-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1611569149536-f366985601f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2VhJTIwdmlld3xlbnwwfHx8fDE3NjEzMTM1MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sea view"
     },
     {
       "id": "fusion-bay-gallery-1",
       "description": "A plate of grilled squid at Fusion Bay.",
-      "imageUrl": "https://picsum.photos/seed/fusion-bay-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1688084456852-a456753e2f93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxncmlsbGVkJTIwc3F1aWR8ZW58MHx8fHwxNzYxMzk5MjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "grilled squid"
     },
     {
       "id": "fusion-bay-gallery-2",
       "description": "A traditional Kerala meal served at the restaurant.",
-      "imageUrl": "https://picsum.photos/seed/fusion-bay-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1743674453123-93356ade2891?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxrZXJhbGElMjBtZWFsfGVufDB8fHx8MTc2MTM5OTI1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "kerala meal"
     },
     {
       "id": "spice-harbour-hero",
       "description": "An evening view of the Spice Harbour restaurant by the water.",
-      "imageUrl": "https://picsum.photos/seed/spice-harbour-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1727378550831-12ba95e9f81d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxoYXJib3VyJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjEzOTkyNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "harbour restaurant"
     },
     {
       "id": "spice-harbour-gallery-1",
       "description": "A seafood platter with various grilled items.",
-      "imageUrl": "https://picsum.photos/seed/spice-harbour-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1519351635902-7c60d09cb2ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZWFmb29kJTIwcGxhdHRlcnxlbnwwfHx8fDE3NjEzMzgxODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "seafood platter"
     },
     {
       "id": "spice-harbour-gallery-2",
       "description": "Diners enjoying the waterfront view.",
-      "imageUrl": "https://picsum.photos/seed/spice-harbour-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1726796065425-475e3fb7c12a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3YXRlcmZyb250JTIwZGluaW5nfGVufDB8fHx8MTc2MTM5OTI1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "waterfront dining"
     },
     {
       "id": "new-spot-1-hero",
       "description": "Vibrant interior of a modern eatery.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-1-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1632319142339-86417e4343d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjBlYXRlcnl8ZW58MHx8fHwxNzYxMzk5MjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "modern eatery"
     },
     {
       "id": "new-spot-1-gallery-1",
       "description": "A gourmet burger.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-1-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1550547660-d9450f859349?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnb3VybWV0JTIwYnVyZ2VyfGVufDB8fHx8MTc2MTM1NzM1OHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "gourmet burger"
     },
     {
       "id": "new-spot-1-gallery-2",
       "description": "A refreshing craft cocktail.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-1-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1695924357230-13730b3c35e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y3JhZnQlMjBjb2NrdGFpbHxlbnwwfHx8fDE3NjEzOTkyNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "craft cocktail"
     },
     {
       "id": "new-spot-2-hero",
       "description": "Cozy corner of a coffee shop.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-2-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2ZmZWUlMjBzaG9wfGVufDB8fHx8MTc2MTM4MDcyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "coffee shop"
     },
     {
       "id": "new-spot-2-gallery-1",
       "description": "Latte art in a ceramic mug.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-2-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1579265898841-79c7890d69cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsYXR0ZSUyMGFydHxlbnwwfHx8fDE3NjEzNjE3MDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "latte art"
     },
     {
       "id": "new-spot-2-gallery-2",
       "description": "A freshly baked croissant.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-2-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1724879703415-afbe04012852?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxiYWtlZCUyMGNyb2lzc2FudHxlbnwwfHx8fDE3NjEzNzk5NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "baked croissant"
     },
     {
       "id": "new-spot-3-hero",
       "description": "Traditional south indian restaurant ambiance.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-3-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1718476971217-677d43112daa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxpbmRpYW4lMjBhbWJpYW5jZXxlbnwwfHx8fDE3NjEzOTkyNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "indian ambiance"
     },
     {
       "id": "new-spot-3-gallery-1",
       "description": "A plate of idli and sambar.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-3-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1741026079032-7cb660e44bad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxpZGxpJTIwc2FtYmFyfGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "idli sambar"
     },
     {
       "id": "new-spot-3-gallery-2",
       "description": "Filter coffee in a traditional cup.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-3-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1646346835113-b83a4097983b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmaWx0ZXIlMjBjb2ZmZWV8ZW58MHx8fHwxNzYxMzk4NzA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "filter coffee"
     },
     {
       "id": "new-spot-4-hero",
       "description": "A fine dining setup with elegant table arrangement.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-4-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1611520175743-30ff00129621?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmaW5lJTIwZGluaW5nfGVufDB8fHx8MTc2MTM1NzM1OHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "fine dining"
     },
     {
       "id": "new-spot-4-gallery-1",
       "description": "An elaborately plated dessert.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-4-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1759146048842-743b12d9dfa2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwbGF0ZWQlMjBkZXNzZXJ0fGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "plated dessert"
     },
     {
       "id": "new-spot-4-gallery-2",
       "description": "A glass of red wine.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-4-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyZWQlMjB3aW5lfGVufDB8fHx8MTc2MTMxODI1NHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "red wine"
     },
     {
       "id": "new-spot-5-hero",
       "description": "Rooftop bar with a city view at night.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-5-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1485872299829-c673f5194813?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyb29mdG9wJTIwYmFyfGVufDB8fHx8MTc2MTMwOTkxNXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "rooftop bar"
     },
     {
       "id": "new-spot-5-gallery-1",
       "description": "Colorful mocktails on a bar counter.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-5-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1625207336348-1d1c31a6bd36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb2xvcmZ1bCUyMG1vY2t0YWlsc3xlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "colorful mocktails"
     },
     {
       "id": "new-spot-5-gallery-2",
       "description": "A plate of appetizers.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-5-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1686580091125-a64b744bba4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhcHBldGl6ZXIlMjBwbGF0ZXxlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "appetizer plate"
     },
     {
       "id": "new-spot-6-hero",
       "description": "A beachside shack restaurant.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-6-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1593808862427-8ae84e03704b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YmVhY2hzaWRlJTIwc2hhY2t8ZW58MHx8fHwxNzYxMzk5MjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "beachside shack"
     },
     {
       "id": "new-spot-6-gallery-1",
       "description": "Grilled prawns on a skewer.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-6-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1668993327390-915ad2d2ac53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Z3JpbGxlZCUyMHByYXduc3xlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "grilled prawns"
     },
     {
       "id": "new-spot-6-gallery-2",
       "description": "A coconut water drink.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-6-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1588413336019-dd5d3beddf55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb2NvbnV0JTIwd2F0ZXJ8ZW58MHx8fHwxNzYxMzcwMzk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "coconut water"
     },
     {
       "id": "new-spot-7-hero",
       "description": "A family friendly pizza place.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-7-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1628512094260-fe8b285add52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwaXp6YSUyMHBsYWNlfGVufDB8fHx8MTc2MTMzNTExMHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pizza place"
     },
     {
       "id": "new-spot-7-gallery-1",
       "description": "A large pepperoni pizza.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-7-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1605478371310-a9f1e96b4ff4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZXBwZXJvbmklMjBwaXp6YXxlbnwwfHx8fDE3NjEzNjg4NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pepperoni pizza"
     },
     {
       "id": "new-spot-7-gallery-2",
       "description": "Garlic bread with cheese.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-7-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1593527270723-834c53a3fed4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxnYXJsaWMlMjBicmVhZHxlbnwwfHx8fDE3NjEzMzE1OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "garlic bread"
     },
     {
       "id": "new-spot-8-hero",
       "description": "A street food stall at night.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-8-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1603088549155-6ae9395b928f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdHJlZXQlMjBmb29kfGVufDB8fHx8MTc2MTMxMzE3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "street food"
     },
     {
       "id": "new-spot-8-gallery-1",
       "description": "A plate of pani puri.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-8-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1596450512748-2dae774fc38a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwYW5pJTIwcHVyaXxlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pani puri"
     },
     {
       "id": "new-spot-8-gallery-2",
       "description": "A vendor preparing food.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-8-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1758767055264-bc7e859811d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmb29kJTIwdmVuZG9yfGVufDB8fHx8MTc2MTM5OTI1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "food vendor"
     },
     {
       "id": "new-spot-9-hero",
       "description": "A quiet and elegant Japanese restaurant.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-9-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1621871908119-295c8ce5cee4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxqYXBhbmVzZSUyMHJlc3RhdXJhbnR8ZW58MHx8fHwxNzYxMjk4MDIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "japanese restaurant"
     },
     {
       "id": "new-spot-9-gallery-1",
       "description": "A platter of assorted sushi.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-9-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1582581720432-de83a98176ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdXNoaSUyMHBsYXR0ZXJ8ZW58MHx8fHwxNzYxMzIyMTcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sushi platter"
     },
     {
       "id": "new-spot-9-gallery-2",
       "description": "A bowl of ramen.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-9-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1734313276354-75c96b3c0c36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyYW1lbiUyMGJvd2x8ZW58MHx8fHwxNzYxMzI1Nzc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "ramen bowl"
     },
     {
       "id": "new-spot-10-hero",
       "description": "A bustling chinese restaurant with red lanterns.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-10-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1591214896508-22fc74d84a75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGluZXNlJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjEyOTA0NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "chinese restaurant"
     },
     {
       "id": "new-spot-10-gallery-1",
       "description": "A plate of dumplings.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-10-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1703080173985-936514c7c8bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkdW1wbGluZ3MlMjBwbGF0ZXxlbnwwfHx8fDE3NjEzOTkyNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "dumplings plate"
     },
     {
       "id": "new-spot-10-gallery-2",
       "description": "A bowl of hot and sour soup.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-10-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1741315034133-321591ccadd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzb3VyJTIwc291cHxlbnwwfHx8fDE3NjEzOTkyNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sour soup"
     },
     {
       "id": "new-spot-11-hero",
       "description": "A cozy bakery with fresh bread.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-11-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1749996089724-268703b8c4dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb3p5JTIwYmFrZXJ5fGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cozy bakery"
     },
     {
       "id": "new-spot-11-gallery-1",
       "description": "A variety of cakes and pastries.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-11-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1694837492769-76b4b4a87f17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjYWtlcyUyMHBhc3RyaWVzfGVufDB8fHx8MTc2MTM5OTI1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cakes pastries"
     },
     {
       "id": "new-spot-11-gallery-2",
       "description": "A cup of hot chocolate.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-11-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1517578239113-b03992dcdd25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxob3QlMjBjaG9jb2xhdGV8ZW58MHx8fHwxNzYxMzk5MjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "hot chocolate"
     },
     {
       "id": "new-spot-12-hero",
       "description": "A modern ice cream parlor.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-12-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxpY2UlMjBjcmVhbXxlbnwwfHx8fDE3NjEzMjA0NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "ice cream"
     },
     {
       "id": "new-spot-12-gallery-1",
       "description": "A colorful ice cream sundae.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-12-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1560008581-09826d1de69e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxpY2UlMjBjcmVhbXxlbnwwfHx8fDE3NjEzMjA0NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "ice cream"
     },
     {
       "id": "new-spot-12-gallery-2",
       "description": "Ice cream cones with different flavors.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-12-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1580915411954-282cb1b0d780?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxpY2UlMjBjcmVhbXxlbnwwfHx8fDE3NjEzMjA0NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "ice cream"
     },
     {
       "id": "new-spot-13-hero",
       "description": "A traditional tea house.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-13-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1603821440463-e135ddad1619?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWElMjBob3VzZXxlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "tea house"
     },
     {
       "id": "new-spot-13-gallery-1",
       "description": "A variety of indian snacks.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-13-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1683533678059-63c6a0e9e3ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxpbmRpYW4lMjBzbmFja3N8ZW58MHx8fHwxNzYxMzk5MjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "indian snacks"
     },
     {
       "id": "new-spot-13-gallery-2",
       "description": "A cup of masala chai.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-13-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1583836632332-53825ce55a03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYXNhbGElMjBjaGFpfGVufDB8fHx8MTc2MTMzMTU5NHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "masala chai"
     },
     {
       "id": "new-spot-14-hero",
       "description": "A vegetarian-friendly restaurant with green decor.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-14-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1617470703245-ed7bc56788e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx2ZWdldGFyaWFuJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "vegetarian restaurant"
     },
     {
       "id": "new-spot-14-gallery-1",
       "description": "A healthy salad bowl.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-14-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1623489254660-db5b367881d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzYWxhZCUyMGJvd2x8ZW58MHx8fHwxNzYxMzE2MjA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "salad bowl"
     },
     {
       "id": "new-spot-14-gallery-2",
       "description": "A glass of fresh juice.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-14-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1626201339405-e3912075c1d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmcmVzaCUyMGp1aWNlfGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "fresh juice"
     },
     {
       "id": "new-spot-15-hero",
       "description": "A lively pub with a band playing.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-15-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1587574293340-e0011c4e8ecf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsaXZlbHklMjBwdWJ8ZW58MHx8fHwxNzYxMzk5MjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "lively pub"
     },
     {
       "id": "new-spot-15-gallery-1",
       "description": "A pint of beer.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-15-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1676471956679-bd54c6578fbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwaW50JTIwYmVlcnxlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pint beer"
     },
     {
       "id": "new-spot-15-gallery-2",
       "description": "A plate of chicken wings.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-15-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1585703900468-13c7a978ad86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjaGlja2VuJTIwd2luZ3N8ZW58MHx8fHwxNzYxMzk5MjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "chicken wings"
     },
     {
       "id": "new-spot-16-hero",
       "description": "A simple diner with classic booths.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-16-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1651714082787-7f5abd04f697?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2xhc3NpYyUyMGRpbmVyfGVufDB8fHx8MTc2MTM5OTI1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "classic diner"
     },
     {
       "id": "new-spot-16-gallery-1",
       "description": "A stack of pancakes with syrup.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-16-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1551772412-61103ced2766?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwYW5jYWtlcyUyMHN5cnVwfGVufDB8fHx8MTc2MTM0MzExOXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pancakes syrup"
     },
     {
       "id": "new-spot-16-gallery-2",
       "description": "A classic milkshake.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-16-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1752917069627-0753ec7a7915?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjbGFzc2ljJTIwbWlsa3NoYWtlfGVufDB8fHx8MTc2MTM5OTI1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "classic milkshake"
     },
     {
       "id": "new-spot-17-hero",
       "description": "A trendy cafe with industrial decor.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-17-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1566981537553-8fceaf945076?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx0cmVuZHklMjBjYWZlfGVufDB8fHx8MTc2MTM5OTI1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "trendy cafe"
     },
     {
       "id": "new-spot-17-gallery-1",
       "description": "An avocado toast with a poached egg.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-17-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1613769049987-b31b641f25b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhdm9jYWRvJTIwdG9hc3R8ZW58MHx8fHwxNzYxMzkzODQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "avocado toast"
     },
     {
       "id": "new-spot-17-gallery-2",
       "description": "A cup of specialty coffee.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-17-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1680381665152-b7e5151c4153?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzcGVjaWFsdHklMjBjb2ZmZWV8ZW58MHx8fHwxNzYxMzIyNzk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "specialty coffee"
     },
     {
       "id": "new-spot-18-hero",
       "description": "A mexican restaurant with colorful decorations.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-18-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1653084019129-1f2303bb5bc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZXhpY2FuJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjEzNzYxMDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mexican restaurant"
     },
     {
       "id": "new-spot-18-gallery-1",
       "description": "A plate of tacos.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-18-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1703623409191-dfdd5664e222?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0YWNvcyUyMHBsYXRlfGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "tacos plate"
     },
     {
       "id": "new-spot-18-gallery-2",
       "description": "A glass of margarita.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-18-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1632987790987-b5fa05f76a3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYXJnYXJpdGElMjBnbGFzc3xlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "margarita glass"
     },
     {
       "id": "new-spot-19-hero",
       "description": "A high-end restaurant with a tasting menu.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-19-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1743811929027-f6864cc6fe1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx0YXN0aW5nJTIwbWVudXxlbnwwfHx8fDE3NjEzOTkyNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "tasting menu"
     },
     {
       "id": "new-spot-19-gallery-1",
       "description": "A dish from the tasting menu.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-19-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1677843962168-5210057c4495?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0YXN0aW5nJTIwZGlzaHxlbnwwfHx8fDE3NjEzOTkyNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "tasting dish"
     },
     {
       "id": "new-spot-19-gallery-2",
       "description": "The wine cellar of the restaurant.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-19-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1724882207681-9e7e8c3dd45c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3aW5lJTIwY2VsbGFyfGVufDB8fHx8MTc2MTMwMTAwNHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "wine cellar"
     },
     {
       "id": "new-spot-20-hero",
       "description": "A barbecue joint with picnic tables.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-20-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1594196908000-058bdd9daab2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYXJiZWN1ZSUyMGpvaW50fGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "barbecue joint"
     },
     {
       "id": "new-spot-20-gallery-1",
       "description": "A rack of ribs with barbecue sauce.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-20-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1725399078928-9e208e7a4cae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyYWNrJTIwcmlic3xlbnwwfHx8fDE3NjEzOTkyNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "rack ribs"
     },
     {
       "id": "new-spot-20-gallery-2",
       "description": "A plate of pulled pork.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-20-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1650525121862-8336b2a96e7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwdWxsZWQlMjBwb3JrfGVufDB8fHx8MTc2MTM5OTI1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pulled pork"
     },
     {
       "id": "new-spot-21-hero",
       "description": "Thai restaurant with authentic decor.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-21-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1665917152889-b170c7b8b5fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx0aGFpJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "thai restaurant"
     },
     {
       "id": "new-spot-21-gallery-1",
       "description": "Bowl of green curry.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-21-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1708782341766-0d360d02975c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Z3JlZW4lMjBjdXJyeXxlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "green curry"
     },
     {
       "id": "new-spot-21-gallery-2",
       "description": "Plate of Pad Thai noodles.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-21-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1707546944460-dda9069b9c1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwYWQlMjB0aGFpfGVufDB8fHx8MTc2MTM5ODU4OHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pad thai"
     },
     {
       "id": "new-spot-22-hero",
       "description": "Vietnamese restaurant interior.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-22-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1619900950180-4a099c7aaeb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx2aWV0bmFtZXNlJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjEzMjMwMTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "vietnamese restaurant"
     },
     {
       "id": "new-spot-22-gallery-1",
       "description": "A large bowl of pho.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-22-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1616080854961-4b4f601f3545?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwaG8lMjBib3dsfGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pho bowl"
     },
     {
       "id": "new-spot-22-gallery-2",
       "description": "Fresh spring rolls.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-22-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1695712641569-05eee7b37b6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcHJpbmclMjByb2xsc3xlbnwwfHx8fDE3NjEyOTAyMzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "spring rolls"
     },
     {
       "id": "new-spot-23-hero",
       "description": "A rustic Italian pasta bar.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-23-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1691982803702-7f10405c3d9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGFzdGElMjBiYXJ8ZW58MHx8fHwxNzYxMzk5MjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pasta bar"
     },
     {
       "id": "new-spot-23-gallery-1",
       "description": "Chef making fresh pasta.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-23-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1587740908356-53fcb5dac4aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYWtpbmclMjBwYXN0YXxlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "making pasta"
     },
     {
       "id": "new-spot-23-gallery-2",
       "description": "A plate of carbonara.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-23-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1720414574220-29403f655201?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2FyYm9uYXJhJTIwcGxhdGV8ZW58MHx8fHwxNzYxMzk5MjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "carbonara plate"
     },
     {
       "id": "new-spot-24-hero",
       "description": "A lively food truck park.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-24-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1661417344268-d9e64eb2b121?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmb29kJTIwcGFya3xlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "food park"
     },
     {
       "id": "new-spot-24-gallery-1",
       "description": "People ordering from food trucks.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-24-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1612208176815-e132bcf971b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmb29kJTIwdHJ1Y2tzfGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "food trucks"
     },
     {
       "id": "new-spot-24-gallery-2",
       "description": "A variety of street food dishes.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-24-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1599033183537-54ff77f58f75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzdHJlZXQlMjBmb29kfGVufDB8fHx8MTc2MTMxMzE3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "street food"
     },
     {
       "id": "new-spot-25-hero",
       "description": "A vegan cafe with lots of plants.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-25-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1596698184361-345247ba2c52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx2ZWdhbiUyMGNhZmV8ZW58MHx8fHwxNzYxMjg0MjA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "vegan cafe"
     },
     {
       "id": "new-spot-25-gallery-1",
       "description": "A colorful vegan buddha bowl.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-25-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1749280446532-60869b4b9863?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxidWRkaGElMjBib3dsfGVufDB8fHx8MTc2MTMzMjQyOXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "buddha bowl"
     },
     {
       "id": "new-spot-25-gallery-2",
       "description": "A vegan burger with sweet potato fries.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-25-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1627587780063-1655815c958b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx2ZWdhbiUyMGJ1cmdlcnxlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "vegan burger"
     },
     {
       "id": "new-spot-26-hero",
       "description": "Seafood grill on the beach.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-26-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1685335227828-ef62d849353a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzZWFmb29kJTIwZ3JpbGx8ZW58MHx8fHwxNzYxMzk5MjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "seafood grill"
     },
     {
       "id": "new-spot-26-gallery-1",
       "description": "A whole grilled fish.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-26-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1600175074394-f2f4c500f7ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxncmlsbGVkJTIwZmlzaHxlbnwwfHx8fDE3NjEzMjI4MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "grilled fish"
     },
     {
       "id": "new-spot-26-gallery-2",
       "description": "Sunset view from the restaurant.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-26-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1570753083358-81e4e42e7b75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzdW5zZXQlMjB2aWV3fGVufDB8fHx8MTc2MTM4NjY2OXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sunset view"
     },
     {
       "id": "new-spot-27-hero",
       "description": "A classic French bistro setting.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-27-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1703226165002-298b2f397b8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmcmVuY2glMjBiaXN0cm98ZW58MHx8fHwxNzYxMzk5MjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "french bistro"
     },
     {
       "id": "new-spot-27-gallery-1",
       "description": "A plate of steak frites.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-27-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1575900365671-6b67e2265d98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdGVhayUyMGZyaXRlc3xlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "steak frites"
     },
     {
       "id": "new-spot-27-gallery-2",
       "description": "A bowl of French onion soup.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-27-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1741318714411-fad939b8580a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxvbmlvbiUyMHNvdXB8ZW58MHx8fHwxNzYxMzY2NDcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "onion soup"
     },
     {
       "id": "new-spot-28-hero",
       "description": "A modern tapas bar.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-28-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1625817855238-ca2ad160285e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0YXBhcyUyMGJhcnxlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "tapas bar"
     },
     {
       "id": "new-spot-28-gallery-1",
       "description": "A selection of different tapas.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-28-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1744131290916-e6439693bd4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzZWxlY3Rpb24lMjB0YXBhc3xlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "selection tapas"
     },
     {
       "id": "new-spot-28-gallery-2",
       "description": "A pitcher of sangria.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-28-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1639434035659-c365b1961c23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzYW5ncmlhJTIwcGl0Y2hlcnxlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sangria pitcher"
     },
     {
       "id": "new-spot-29-hero",
       "description": "An all-you-can-eat buffet spread.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-29-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1720443000468-89d509202615?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxidWZmZXQlMjBzcHJlYWR8ZW58MHx8fHwxNzYxMzk5MjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "buffet spread"
     },
     {
       "id": "new-spot-29-gallery-1",
       "description": "People serving themselves at the buffet.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-29-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1671612451404-f4f8fc5fe25e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxidWZmZXQlMjBsaW5lfGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "buffet line"
     },
     {
       "id": "new-spot-29-gallery-2",
       "description": "A dessert section at the buffet.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-29-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1720443000445-1861dea687dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkZXNzZXJ0JTIwYnVmZmV0fGVufDB8fHx8MTc2MTMyMjU5NXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "dessert buffet"
     },
     {
       "id": "new-spot-30-hero",
       "description": "A gourmet donut shop.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-30-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1657312207753-f50cc8713e20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkb251dCUyMHNob3B8ZW58MHx8fHwxNzYxMzk5MjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "donut shop"
     },
     {
       "id": "new-spot-30-gallery-1",
       "description": "A box of colorful donuts.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-30-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1670307335965-02cd42292094?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2xvcmZ1bCUyMGRvbnV0c3xlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "colorful donuts"
     },
     {
       "id": "new-spot-30-gallery-2",
       "description": "A single beautifully decorated donut.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-30-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1630416628357-5b1c006f43cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkZWNvcmF0ZWQlMjBkb251dHxlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "decorated donut"
     },
     {
       "id": "new-spot-31-hero",
       "description": "A classic Kerala toddy shop.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-31-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1761265170138-2bd92d658c0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx0b2RkeSUyMHNob3B8ZW58MHx8fHwxNzYxMzk5MjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "toddy shop"
     },
     {
       "id": "new-spot-31-gallery-1",
       "description": "Spicy fish curry served in a clay pot.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-31-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1626508035297-0cd27c397d67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmaXNoJTIwY3Vycnl8ZW58MHx8fHwxNzYxMzk5MjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "fish curry"
     },
     {
       "id": "new-spot-31-gallery-2",
       "description": "A glass of toddy.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-31-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1643114451805-f14ea7bb0dfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0b2RkeSUyMGdsYXNzfGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "toddy glass"
     },
     {
       "id": "new-spot-32-hero",
       "description": "A bustling biryani house.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-32-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1699212012286-4df61c5dd041?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxiaXJ5YW5pJTIwaG91c2V8ZW58MHx8fHwxNzYxMzk5MjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "biryani house"
     },
     {
@@ -789,31 +789,31 @@
     {
       "id": "new-spot-32-gallery-2",
       "description": "A plate of chicken biryani with raita.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-32-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1630851840633-f96999247032?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlja2VuJTIwYmlyeWFuaXxlbnwwfHx8fDE3NjEzMDcwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "chicken biryani"
     },
     {
       "id": "new-spot-33-hero",
       "description": "A charming cafe in Fort Kochi.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-33-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1707500315925-910ab09b92b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8a29jaGklMjBjYWZlfGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "kochi cafe"
     },
     {
       "id": "new-spot-33-gallery-1",
       "description": "Iced coffee on a wooden table.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-33-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1558122104-355edad709f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpY2VkJTIwY29mZmVlfGVufDB8fHx8MTc2MTM3NzkwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "iced coffee"
     },
     {
       "id": "new-spot-33-gallery-2",
       "description": "A sandwich and a book.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-33-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1660449418896-f901e49903ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYWZlJTIwcmVhZGluZ3xlbnwwfHx8fDE3NjEzOTkyNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cafe reading"
     },
     {
       "id": "new-spot-34-hero",
       "description": "A restaurant specializing in Kerala breakfasts.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-34-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1591022132290-26a8144bd9c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxrZXJhbGElMjBicmVha2Zhc3R8ZW58MHx8fHwxNzYxMzk5MjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "kerala breakfast"
     },
     {
@@ -825,67 +825,67 @@
     {
       "id": "new-spot-34-gallery-2",
       "description": "Appam being made on a pan.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-34-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1756137949459-8aad8455d040?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhcHBhbSUyMHBhbnxlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "appam pan"
     },
     {
       "id": "new-spot-35-hero",
       "description": "A restaurant with Chinese fishing nets view.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-35-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1646844103508-51dde2e7b461?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmaXNoaW5nJTIwbmV0c3xlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "fishing nets"
     },
     {
       "id": "new-spot-35-gallery-1",
       "description": "A plate of fried prawns.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-35-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1722498257014-26efa8b75c7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmcmllZCUyMHByYXduc3xlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "fried prawns"
     },
     {
       "id": "new-spot-35-gallery-2",
       "description": "The catch of the day on display.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-35-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1517115358639-5720b8e02219?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZnJlc2glMjBmaXNofGVufDB8fHx8MTc2MTM4ODIwNnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "fresh fish"
     },
     {
       "id": "new-spot-36-hero",
       "description": "A restaurant in a heritage hotel.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-36-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1720070143795-52e5f5ed7eaf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoZXJpdGFnZSUyMGhvdGVsfGVufDB8fHx8MTc2MTMxNzgxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "heritage hotel"
     },
     {
       "id": "new-spot-36-gallery-1",
       "description": "An elegant dining room.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-36-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1750943082640-66f9fd0a4608?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxlbGVnYW50JTIwZGluaW5nfGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "elegant dining"
     },
     {
       "id": "new-spot-36-gallery-2",
       "description": "A colonial-era building exterior.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-36-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1672676935367-68dde281958d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb2xvbmlhbCUyMGJ1aWxkaW5nfGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "colonial building"
     },
     {
       "id": "new-spot-37-hero",
       "description": "A juice and smoothie bar.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-37-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1601924287811-e34de5d17476?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxqdWljZSUyMGJhcnxlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "juice bar"
     },
     {
       "id": "new-spot-37-gallery-1",
       "description": "A row of colorful smoothies.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-37-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1552070406-cd6666523132?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb2xvcmZ1bCUyMHNtb290aGllc3xlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "colorful smoothies"
     },
     {
       "id": "new-spot-37-gallery-2",
       "description": "A fruit platter.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-37-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1641642399576-487909d0ddbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmcnVpdCUyMHBsYXR0ZXJ8ZW58MHx8fHwxNzYxMzIyNTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "fruit platter"
     },
     {
       "id": "new-spot-38-hero",
       "description": "A local eatery famous for porotta and beef.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-38-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1760537589591-5a468034dde3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsb2NhbCUyMGVhdGVyeXxlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "local eatery"
     },
     {
@@ -897,224 +897,278 @@
     {
       "id": "new-spot-38-gallery-2",
       "description": "A chef flipping porotta.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-38-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1569767143908-1342240550ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYWtpbmclMjBwb3JvdHRhfGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "making porotta"
     },
     {
       "id": "new-spot-39-hero",
       "description": "A cafe overlooking the ocean.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-39-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1755407823862-e5da1af45068?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxvY2VhbiUyMGNhZmV8ZW58MHx8fHwxNzYxMzk5MjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "ocean cafe"
     },
     {
       "id": "new-spot-39-gallery-1",
       "description": "A cup of tea with a sea view.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-39-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1620827195512-6422baa0c5a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0ZWElMjB2aWV3fGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "tea view"
     },
     {
       "id": "new-spot-39-gallery-2",
       "description": "A light snack by the window.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-39-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1712034958135-5abea61dc03f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d2luZG93JTIwc25hY2t8ZW58MHx8fHwxNzYxMzk5MjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "window snack"
     },
     {
       "id": "new-spot-40-hero",
       "description": "A restaurant with live traditional music.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-40-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsaXZlJTIwbXVzaWN8ZW58MHx8fHwxNzYxMzExODAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "live music"
     },
     {
       "id": "new-spot-40-gallery-1",
       "description": "Musicians playing classical Indian instruments.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-40-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1677254112848-af772a6661c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aW5kaWFuJTIwaW5zdHJ1bWVudHN8ZW58MHx8fHwxNzYxMzk5MjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "indian instruments"
     },
     {
       "id": "new-spot-40-gallery-2",
       "description": "Guests watching the performance.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-40-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1758405282251-26903f4b7fcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3YXRjaGluZyUyMHBlcmZvcm1hbmNlfGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "watching performance"
     },
     {
       "id": "new-spot-41-hero",
       "description": "A modern continental restaurant interior.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-41-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1653071097771-bdd9e6e103bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb250aW5lbnRhbCUyMHJlc3RhdXJhbnR8ZW58MHx8fHwxNzYxMzk5MjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "continental restaurant"
     },
     {
       "id": "new-spot-41-gallery-1",
       "description": "A plate of grilled chicken with vegetables.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-41-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxncmlsbGVkJTIwY2hpY2tlbnxlbnwwfHx8fDE3NjEzNjE1NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "grilled chicken"
     },
     {
       "id": "new-spot-41-gallery-2",
       "description": "A creamy pasta dish.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-41-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1761168941826-7efda859bdae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjcmVhbXklMjBwYXN0YXxlbnwwfHx8fDE3NjEzODQwNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "creamy pasta"
     },
     {
       "id": "new-spot-42-hero",
       "description": "A South Indian vegetarian restaurant.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-42-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1646475838597-1049ff15b674?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx2ZWdldGFyaWFuJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "vegetarian restaurant"
     },
     {
       "id": "new-spot-42-gallery-1",
       "description": "A banana leaf meal (sadhya).",
-      "imageUrl": "https://picsum.photos/seed/new-spot-42-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1743674453123-93356ade2891?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzYWRoeWElMjBtZWFsfGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sadhya meal"
     },
     {
       "id": "new-spot-42-gallery-2",
       "description": "A variety of chutneys and pickles.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-42-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1550850584-455a131629e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaHV0bmV5cyUyMHBpY2tsZXN8ZW58MHx8fHwxNzYxMzk5MjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "chutneys pickles"
     },
     {
       "id": "new-spot-43-hero",
       "description": "A restaurant specializing in Kerala snacks.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-43-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1636549520336-c66dee3bd332?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxrZXJhbGElMjBzbmFja3N8ZW58MHx8fHwxNzYxMzk5MjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "kerala snacks"
     },
     {
       "id": "new-spot-43-gallery-1",
       "description": "A plate of banana fritters (pazham pori).",
-      "imageUrl": "https://picsum.photos/seed/new-spot-43-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1619893071414-adeb38c108fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxiYW5hbmElMjBmcml0dGVyc3xlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "banana fritters"
     },
     {
       "id": "new-spot-43-gallery-2",
       "description": "A selection of fried snacks.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-43-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1758346972383-40d3441470ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZnJpZWQlMjBzbmFja3N8ZW58MHx8fHwxNzYxMzk5MjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "fried snacks"
     },
     {
       "id": "new-spot-44-hero",
       "description": "A rooftop restaurant with a pool.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-44-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1578058997959-66ffdee9f807?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyb29mdG9wJTIwcG9vbHxlbnwwfHx8fDE3NjEzODQ3OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "rooftop pool"
     },
     {
       "id": "new-spot-44-gallery-1",
       "description": "Dining tables set up by the poolside.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-44-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1760681556004-b7c6b558e4a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwb29sc2lkZSUyMGRpbmluZ3xlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "poolside dining"
     },
     {
       "id": "new-spot-44-gallery-2",
       "description": "A cocktail by the pool.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-44-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1682011709221-c584d3a63703?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwb29sJTIwY29ja3RhaWx8ZW58MHx8fHwxNzYxMzk5MjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pool cocktail"
     },
     {
       "id": "new-spot-45-hero",
       "description": "A contemporary Indian restaurant.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-45-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1669043962012-a5b8496cd664?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpbmRpYW4lMjByZXN0YXVyYW50fGVufDB8fHx8MTc2MTMxMzUyOHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "indian restaurant"
     },
     {
       "id": "new-spot-45-gallery-1",
       "description": "A modern take on a classic Indian dish.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-45-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1657687917734-02f400bfae2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb2Rlcm4lMjBpbmRpYW58ZW58MHx8fHwxNzYxMzk5MjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "modern indian"
     },
     {
       "id": "new-spot-45-gallery-2",
       "description": "An artisanal Indian dessert.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-45-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1617622163466-d1d56ec8b127?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxpbmRpYW4lMjBkZXNzZXJ0fGVufDB8fHx8MTc2MTMxMzc2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "indian dessert"
     },
     {
       "id": "new-spot-46-hero",
       "description": "A historic building converted into a restaurant.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-46-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1627869030776-81a586be7cf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoaXN0b3JpYyUyMGJ1aWxkaW5nfGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "historic building"
     },
     {
       "id": "new-spot-46-gallery-1",
       "description": "The courtyard of the historic restaurant.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-46-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1616362355051-6a9f8c434fff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmVzdGF1cmFudCUyMGNvdXJ0eWFyZHxlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "restaurant courtyard"
     },
     {
       "id": "new-spot-46-gallery-2",
       "description": "An antique detail inside the restaurant.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-46-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1741896896693-3a4020ede1a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhbnRpcXVlJTIwZGV0YWlsfGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "antique detail"
     },
     {
       "id": "new-spot-47-hero",
       "description": "A waterfront eatery specializing in local catch.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-47-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1615841664581-31c8e22b0ddb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3YXRlcmZyb250JTIwZWF0ZXJ5fGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "waterfront eatery"
     },
     {
       "id": "new-spot-47-gallery-1",
       "description": "Fishermen bringing in the fresh catch.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-47-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1746212087829-b29c73901237?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmcmVzaCUyMGNhdGNofGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "fresh catch"
     },
     {
       "id": "new-spot-47-gallery-2",
       "description": "A spicy crab dish.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-47-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1704303923171-d6839e4784c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjcmFiJTIwZGlzaHxlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "crab dish"
     },
     {
       "id": "new-spot-48-hero",
       "description": "A garden restaurant with outdoor seating.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-48-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1573201106611-1de49dfada5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxnYXJkZW4lMjByZXN0YXVyYW50fGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "garden restaurant"
     },
     {
       "id": "new-spot-48-gallery-1",
       "description": "People dining under fairy lights.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-48-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1611286079235-f4e84fccacba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmYWlyeSUyMGxpZ2h0c3xlbnwwfHx8fDE3NjEzMTIwMTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "fairy lights"
     },
     {
       "id": "new-spot-48-gallery-2",
       "description": "A dish made with fresh garden vegetables.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-48-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1518568403628-df55701ade9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxnYXJkZW4lMjB2ZWdldGFibGVzfGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "garden vegetables"
     },
     {
       "id": "new-spot-49-hero",
       "description": "A small, family-run eatery.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-49-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1600828771290-2531f5b41018?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYW1pbHklMjBlYXRlcnl8ZW58MHx8fHwxNzYxMzk5MjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "family eatery"
     },
     {
       "id": "new-spot-49-gallery-1",
       "description": "A home-style cooked meal.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-49-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1707592357743-5e25b277ca36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxob21lJTIwc3R5bGV8ZW58MHx8fHwxNzYxMzk5MjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "home style"
     },
     {
       "id": "new-spot-49-gallery-2",
       "description": "The friendly owners of the eatery.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-49-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1753981509941-71685eb910ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmcmllbmRseSUyMG93bmVyc3xlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "friendly owners"
     },
     {
       "id": "new-spot-50-hero",
       "description": "An Arabic restaurant with themed decor.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-50-hero/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1513424558167-7c518c5b9c40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhcmFiaWMlMjByZXN0YXVyYW50fGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "arabic restaurant"
     },
     {
       "id": "new-spot-50-gallery-1",
       "description": "A platter of shawarma and hummus.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-50-gallery-1/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1638537125835-82acb38d3531?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzaGF3YXJtYSUyMGh1bW11c3xlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "shawarma hummus"
     },
     {
       "id": "new-spot-50-gallery-2",
       "description": "A grill with kebabs cooking.",
-      "imageUrl": "https://picsum.photos/seed/new-spot-50-gallery-2/600/400",
+      "imageUrl": "https://images.unsplash.com/photo-1676471870459-909888c99fb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmlsbCUyMGtlYmFic3xlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "grill kebabs"
+    },
+    {
+      "id": "new-spot-51-hero",
+      "description": "A bustling seafood restaurant in Palluruthy.",
+      "imageUrl": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzZWFmb29kJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjEzOTUyMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "seafood restaurant"
+    },
+    {
+      "id": "new-spot-51-gallery-1",
+      "description": "A plate of spicy fish fry.",
+      "imageUrl": "https://images.unsplash.com/photo-1626253836448-e2376678c191?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmaXNoJTIwZnJ5fGVufDB8fHx8MTc2MTM5OTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fish fry"
+    },
+    {
+      "id": "new-spot-51-gallery-2",
+      "description": "A traditional Kerala crab roast.",
+      "imageUrl": "https://images.unsplash.com/photo-1755633128491-9db86eda96a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjcmFiJTIwcm9hc3R8ZW58MHx8fHwxNzYxMzk5MjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "crab roast"
+    },
+    {
+      "id": "new-spot-52-hero",
+      "description": "A popular multi-cuisine restaurant on MG Road, Ernakulam.",
+      "imageUrl": "https://images.unsplash.com/photo-1731363836087-fbac86c1fef9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaXR5JTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjEzOTkyNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city restaurant"
+    },
+    {
+      "id": "new-spot-52-gallery-1",
+      "description": "A serving of butter chicken.",
+      "imageUrl": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxidXR0ZXIlMjBjaGlja2VufGVufDB8fHx8MTc2MTMxNDYyNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "butter chicken"
+    },
+    {
+      "id": "new-spot-52-gallery-2",
+      "description": "A plate of hakka noodles.",
+      "imageUrl": "https://images.unsplash.com/photo-1723561796007-2fcf547ec47d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aGFra2ElMjBub29kbGVzfGVufDB8fHx8MTc2MTMzMDgyNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hakka noodles"
+    },
+    {
+      "id": "new-spot-53-hero",
+      "description": "The lively atmosphere of Edappally Food Court.",
+      "imageUrl": "https://images.unsplash.com/photo-1593160688806-4a3604ef4cbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Zm9vZCUyMGNvdXJ0fGVufDB8fHx8MTc2MTM0ODAwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "food court"
+    },
+    {
+      "id": "new-spot-53-gallery-1",
+      "description": "A variety of dishes available at the food court.",
+      "imageUrl": "https://images.unsplash.com/photo-1705475388190-775066fd69a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmb29kJTIwdmFyaWV0eXxlbnwwfHx8fDE3NjEzNjUxMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "food variety"
+    },
+    {
+      "id": "new-spot-53-gallery-2",
+      "description": "People enjoying their meals at the food court.",
+      "imageUrl": "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZW9wbGUlMjBlYXRpbmd8ZW58MHx8fHwxNzYxMzIzMTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "people eating"
     }
   ]
 }

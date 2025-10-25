@@ -666,6 +666,36 @@ const allRestaurants: Restaurant[] = [
     location: { lat: 9.966, lng: 76.297 },
     heroImage: findImage('new-spot-11-hero'),
     gallery: [findImage('new-spot-11-gallery-1'), findImage('new-spot-11-gallery-2')],
+  },
+  {
+    id: 'palluruthy-seafood-house',
+    name: 'Palluruthy Seafood House',
+    cuisine: 'Kerala Seafood',
+    description: 'A local gem in Palluruthy known for its fresh catch of the day and traditional spicy preparations.',
+    address: 'Palluruthy, Kochi, Kerala 682006, India',
+    location: { lat: 9.925, lng: 76.275 },
+    heroImage: findImage('new-spot-51-hero'),
+    gallery: [findImage('new-spot-51-gallery-1'), findImage('new-spot-51-gallery-2')],
+  },
+  {
+    id: 'ernakulam-kitchen-delights',
+    name: 'Ernakulam Kitchen Delights',
+    cuisine: 'Multi-Cuisine',
+    description: 'A bustling eatery in the heart of Ernakulam city, serving a mix of Kerala, North Indian, and Chinese dishes.',
+    address: 'MG Road, Ernakulam, Kochi, Kerala 682016, India',
+    location: { lat: 9.980, lng: 76.290 },
+    heroImage: findImage('new-spot-52-hero'),
+    gallery: [findImage('new-spot-52-gallery-1'), findImage('new-spot-52-gallery-2')],
+  },
+  {
+    id: 'edappally-food-court',
+    name: 'Edappally Food Court',
+    cuisine: 'Food Court',
+    description: 'A popular hub with multiple food stalls offering a wide variety of cuisines to suit every palate.',
+    address: 'Near Lulu Mall, Edappally, Kochi, Kerala 682024, India',
+    location: { lat: 10.028, lng: 76.310 },
+    heroImage: findImage('new-spot-53-hero'),
+    gallery: [findImage('new-spot-53-gallery-1'), findImage('new-spot-53-gallery-2')],
   }
 ];
 
