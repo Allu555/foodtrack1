@@ -1,11 +1,14 @@
+
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { restaurants, Restaurant } from '@/lib/restaurants';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft, MapPin } from 'lucide-react';
+import { ArrowLeft, MapPin, Star } from 'lucide-react';
 import { FavoriteButton } from '@/components/favorite-button';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import { Card, CardContent } from '@/components/ui/card';
 
 type RestaurantPageProps = {
   params: {
@@ -16,6 +19,29 @@ type RestaurantPageProps = {
 const getRestaurant = (id: string): Restaurant | undefined => {
   return restaurants.find((r) => r.id === id);
 };
+
+// Sample reviews data
+const sampleReviews = [
+  {
+    author: "Alex D.",
+    rating: 5,
+    text: "Absolutely fantastic! The ambiance is lovely and the food is even better. A must-visit spot.",
+    avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d"
+  },
+  {
+    author: "Maria S.",
+    rating: 4,
+    text: "Great food and friendly staff. The location is perfect. I'll definitely be back to try more dishes.",
+    avatar: "https://i.pravatar.cc/150?u=a042581f4e29026705d"
+  },
+  {
+    author: "John P.",
+    rating: 5,
+    text: "I've been here multiple times and it never disappoints. The quality is consistently high.",
+    avatar: "https://i.pravatar.cc/150?u=a042581f4e29026706d"
+  }
+];
+
 
 export default function RestaurantPage({ params }: RestaurantPageProps) {
   const restaurant = getRestaurant(params.id);
@@ -106,6 +132,43 @@ export default function RestaurantPage({ params }: RestaurantPageProps) {
               <CarouselNext className="mr-14" />
             </Carousel>
           </div>
+          
+          <div className="mt-16">
+            <h2 className="text-3xl font-bold font-headline mb-6 text-center">Reviews</h2>
+            <div className="space-y-6">
+              {sampleReviews.map((review, index) => (
+                <Card key={index}>
+                  <CardContent className="p-6">
+                    <div className="flex items-start gap-4">
+                      <Avatar>
+                        <AvatarImage src={review.avatar} alt={review.author} />
+                        <AvatarFallback>{review.author.charAt(0)}</AvatarFallback>
+                      </Avatar>
+                      <div className="flex-1">
+                        <div className="flex items-center justify-between">
+                          <p className="font-semibold">{review.author}</p>
+                          <div className="flex items-center gap-1">
+                            {[...Array(5)].map((_, i) => (
+                              <Star
+                                key={i}
+                                className={`h-5 w-5 ${
+                                  i < review.rating
+                                    ? 'text-yellow-400 fill-yellow-400'
+                                    : 'text-muted-foreground'
+                                }`}
+                              />
+                            ))}
+                          </div>
+                        </div>
+                        <p className="text-sm text-muted-foreground mt-2">{review.text}</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+
         </div>
       </main>
     </div>
