@@ -34,8 +34,8 @@ export function RestaurantMap({ restaurants, className }: MapProps) {
 
         const latitudes = restaurants.map(r => r.location.lat);
         const longitudes = restaurants.map(r => r.location.lng);
-        const centerLat = latitudes.reduce((a, b) => a + b, 0) / latitudes.length;
-        const centerLng = longitudes.reduce((a, b) => a + b, 0) / longitudes.length;
+        const centerLat = latitudes.length > 0 ? latitudes.reduce((a, b) => a + b, 0) / latitudes.length : 9.967;
+        const centerLng = longitudes.length > 0 ? longitudes.reduce((a, b) => a + b, 0) / longitudes.length : 76.242;
         const center: [number, number] = [centerLat, centerLng];
 
         const map = L.map(containerRef.current).setView(center, 10);
@@ -59,6 +59,12 @@ export function RestaurantMap({ restaurants, className }: MapProps) {
                 .addTo(map)
                 .bindPopup(popupContent);
         });
+
+        if (restaurants.length > 0) {
+            const bounds = L.latLngBounds(restaurants.map(r => [r.location.lat, r.location.lng]));
+            map.fitBounds(bounds, { padding: [50, 50] });
+        }
+
 
         return () => {
             if (mapRef.current) {
