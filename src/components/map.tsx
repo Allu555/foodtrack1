@@ -5,6 +5,7 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import { Restaurant } from '@/lib/restaurants';
 import Link from 'next/link';
+import { useEffect, useRef } from 'react';
 
 // Fix for default icon not showing in React-Leaflet
 delete (L.Icon.Default.prototype as any)._getIconUrl;
@@ -20,6 +21,18 @@ interface MapProps {
 }
 
 export function RestaurantMap({ restaurants, className }: MapProps) {
+    const mapRef = useRef<L.Map | null>(null);
+    const containerRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+        return () => {
+            if (mapRef.current) {
+                mapRef.current.remove();
+                mapRef.current = null;
+            }
+        };
+    }, []);
+
     if (!restaurants || restaurants.length === 0) {
         return <div className={className}>No restaurants to display on map.</div>;
     }
@@ -31,22 +44,24 @@ export function RestaurantMap({ restaurants, className }: MapProps) {
     const center: [number, number] = [centerLat, centerLng];
 
     return (
-        <MapContainer center={center} zoom={10} scrollWheelZoom={false} className={className}>
-            <TileLayer
-                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            />
-            {restaurants.map(restaurant => (
-                <Marker key={restaurant.id} position={[restaurant.location.lat, restaurant.location.lng]}>
-                    <Popup>
-                        <div className="font-bold">{restaurant.name}</div>
-                        <p>{restaurant.cuisine}</p>
-                        <Link href={`/restaurants/${restaurant.id}`} className="text-primary hover:underline">
-                        View Details
-                        </Link>
-                    </Popup>
-                </Marker>
-            ))}
-        </MapContainer>
+        <div ref={containerRef} className={className}>
+            <MapContainer whenCreated={map => mapRef.current = map} center={center} zoom={10} scrollWheelZoom={false} style={{ height: '100%', width: '100%' }}>
+                <TileLayer
+                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                />
+                {restaurants.map(restaurant => (
+                    <Marker key={restaurant.id} position={[restaurant.location.lat, restaurant.location.lng]}>
+                        <Popup>
+                            <div className="font-bold">{restaurant.name}</div>
+                            <p>{restaurant.cuisine}</p>
+                            <Link href={`/restaurants/${restaurant.id}`} className="text-primary hover:underline">
+                            View Details
+                            </Link>
+                        </Popup>
+                    </Marker>
+                ))}
+            </MapContainer>
+        </div>
     );
 }
