@@ -3,1117 +3,1117 @@
     {
       "id": "verde-hero",
       "description": "The bright and airy interior of Verde Bistro, with large windows and plenty of plants.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?restaurant-interior",
+      "imageUrl": "https://picsum.photos/seed/verde-hero/800/600",
       "imageHint": "restaurant interior"
     },
     {
       "id": "verde-gallery-1",
       "description": "A close-up shot of Verde Bistro's signature avocado toast.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?avocado-toast",
+      "imageUrl": "https://picsum.photos/seed/verde-gallery-1/600/400",
       "imageHint": "avocado toast"
     },
     {
       "id": "verde-gallery-2",
       "description": "A colorful salad bowl from Verde Bistro.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?salad-bowl",
+      "imageUrl": "https://picsum.photos/seed/verde-gallery-2/600/400",
       "imageHint": "salad bowl"
     },
     {
       "id": "ember-hero",
       "description": "The warm, rustic interior of Ember & Ash, with a visible wood-fired oven.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?rustic-restaurant",
+      "imageUrl": "https://picsum.photos/seed/ember-hero/800/600",
       "imageHint": "rustic restaurant"
     },
     {
       "id": "ember-gallery-1",
       "description": "A perfectly grilled steak from Ember & Ash.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?grilled-steak",
+      "imageUrl": "https://picsum.photos/seed/ember-gallery-1/600/400",
       "imageHint": "grilled steak"
     },
     {
       "id": "ember-gallery-2",
       "description": "A chef preparing food near the wood-fired oven at Ember & Ash.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?chef-cooking",
+      "imageUrl": "https://picsum.photos/seed/ember-gallery-2/600/400",
       "imageHint": "chef cooking"
     },
     {
       "id": "azure-hero",
       "description": "A modern, minimalist dining room at Azure Seafood with views of the water.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?seafood-restaurant",
+      "imageUrl": "https://picsum.photos/seed/azure-hero/800/600",
       "imageHint": "seafood restaurant"
     },
     {
       "id": "azure-gallery-1",
       "description": "A platter of fresh oysters from Azure Seafood.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?fresh-oysters",
+      "imageUrl": "https://picsum.photos/seed/azure-gallery-1/600/400",
       "imageHint": "fresh oysters"
     },
     {
       "id": "azure-gallery-2",
       "description": "A beautifully plated fish dish from Azure Seafood.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?plated-fish",
+      "imageUrl": "https://picsum.photos/seed/azure-gallery-2/600/400",
       "imageHint": "plated fish"
     },
     {
       "id": "terra-hero",
       "description": "A cozy, dimly lit interior of Terra Cotta, an Italian restaurant.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?italian-restaurant",
+      "imageUrl": "https://picsum.photos/seed/terra-hero/800/600",
       "imageHint": "italian restaurant"
     },
     {
       "id": "terra-gallery-1",
       "description": "A classic pizza margherita from Terra Cotta.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?pizza-margherita",
+      "imageUrl": "https://picsum.photos/seed/terra-gallery-1/600/400",
       "imageHint": "pizza margherita"
     },
     {
       "id": "terra-gallery-2",
       "description": "A bowl of handmade pasta from Terra Cotta.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?pasta-bowl",
+      "imageUrl": "https://picsum.photos/seed/terra-gallery-2/600/400",
       "imageHint": "pasta bowl"
     },
     {
       "id": "kayaloram-hero",
       "description": "A beautiful restaurant on the Kerala backwaters at sunset.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?kerala-backwaters",
+      "imageUrl": "https://picsum.photos/seed/kayaloram-hero/800/600",
       "imageHint": "kerala backwaters"
     },
     {
       "id": "kayaloram-gallery-1",
       "description": "A delicious plate of Kerala style fish curry.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?fish-curry",
+      "imageUrl": "https://picsum.photos/seed/kayaloram-gallery-1/600/400",
       "imageHint": "fish curry"
     },
     {
       "id": "kayaloram-gallery-2",
       "description": "Freshly caught grilled fish served on a banana leaf.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?grilled-fish",
+      "imageUrl": "https://picsum.photos/seed/kayaloram-gallery-2/600/400",
       "imageHint": "grilled fish"
     },
     {
       "id": "malabar-hero",
       "description": "The entrance to a traditional Kerala restaurant with intricate woodwork.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?kerala-restaurant",
+      "imageUrl": "https://picsum.photos/seed/malabar-hero/800/600",
       "imageHint": "kerala restaurant"
     },
     {
       "id": "malabar-gallery-1",
       "description": "A traditional Kerala sadhya (feast) served on a banana leaf with many small dishes.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?kerala-sadhya",
+      "imageUrl": "https://picsum.photos/seed/malabar-gallery-1/600/400",
       "imageHint": "kerala sadhya"
     },
     {
       "id": "malabar-gallery-2",
       "description": "A close-up of a crispy dosa with chutneys.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?dosa-chutney",
+      "imageUrl": "https://picsum.photos/seed/malabar-gallery-2/600/400",
       "imageHint": "dosa chutney"
     },
     {
       "id": "fort-house-hero",
       "description": "A seaside view from the Fort House restaurant in Kochi.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?seaside-restaurant",
+      "imageUrl": "https://picsum.photos/seed/fort-house-hero/800/600",
       "imageHint": "seaside restaurant"
     },
     {
       "id": "fort-house-gallery-1",
       "description": "A plate of appam and stew, a classic Kerala breakfast.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?appam-stew",
+      "imageUrl": "https://picsum.photos/seed/fort-house-gallery-1/600/400",
       "imageHint": "appam stew"
     },
     {
       "id": "fort-house-gallery-2",
       "description": "A platter of fried seafood at a beachside table.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?seafood-platter",
+      "imageUrl": "https://picsum.photos/seed/fort-house-gallery-2/600/400",
       "imageHint": "seafood platter"
     },
     {
       "id": "dal-roti-hero",
       "description": "The vibrant and colorful interior of Dal Roti restaurant.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?indian-restaurant",
+      "imageUrl": "https://picsum.photos/seed/dal-roti-hero/800/600",
       "imageHint": "indian restaurant"
     },
     {
       "id": "dal-roti-gallery-1",
       "description": "A close-up of a variety of North Indian kathis rolls.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?kathi-rolls",
+      "imageUrl": "https://picsum.photos/seed/dal-roti-gallery-1/600/400",
       "imageHint": "kathi rolls"
     },
     {
       "id": "dal-roti-gallery-2",
       "description": "A thali with various North Indian curries, bread, and rice.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?indian-thali",
+      "imageUrl": "https://picsum.photos/seed/dal-roti-gallery-2/600/400",
       "imageHint": "indian thali"
     },
     {
       "id": "kashi-cafe-hero",
       "description": "The artistic and rustic courtyard of Kashi Art Cafe.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?art-cafe",
+      "imageUrl": "https://picsum.photos/seed/kashi-cafe-hero/800/600",
       "imageHint": "art cafe"
     },
     {
       "id": "kashi-cafe-gallery-1",
       "description": "A slice of homemade chocolate cake and coffee.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?chocolate-cake",
+      "imageUrl": "https://picsum.photos/seed/kashi-cafe-gallery-1/600/400",
       "imageHint": "chocolate cake"
     },
     {
       "id": "kashi-cafe-gallery-2",
       "description": "A person reading a book in the serene cafe environment.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?cafe-reading",
+      "imageUrl": "https://picsum.photos/seed/kashi-cafe-gallery-2/600/400",
       "imageHint": "cafe reading"
     },
     {
       "id": "paragon-hero",
       "description": "The bustling and classic interior of Paragon Restaurant.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?classic-restaurant",
+      "imageUrl": "https://picsum.photos/seed/paragon-hero/800/600",
       "imageHint": "classic restaurant"
     },
     {
       "id": "paragon-gallery-1",
       "description": "A signature biryani dish from Paragon.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?biryani-dish",
+      "imageUrl": "https://picsum.photos/seed/paragon-gallery-1/600/400",
       "imageHint": "biryani dish"
     },
     {
       "id": "paragon-gallery-2",
       "description": "A close-up of fish mango curry.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?fish-curry",
+      "imageUrl": "https://picsum.photos/seed/paragon-gallery-2/600/400",
       "imageHint": "fish curry"
     },
     {
       "id": "fusion-bay-hero",
       "description": "A view of the sea from Fusion Bay restaurant.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?sea-view",
+      "imageUrl": "https://picsum.photos/seed/fusion-bay-hero/800/600",
       "imageHint": "sea view"
     },
     {
       "id": "fusion-bay-gallery-1",
       "description": "A plate of grilled squid at Fusion Bay.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?grilled-squid",
+      "imageUrl": "https://picsum.photos/seed/fusion-bay-gallery-1/600/400",
       "imageHint": "grilled squid"
     },
     {
       "id": "fusion-bay-gallery-2",
       "description": "A traditional Kerala meal served at the restaurant.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?kerala-meal",
+      "imageUrl": "https://picsum.photos/seed/fusion-bay-gallery-2/600/400",
       "imageHint": "kerala meal"
     },
     {
       "id": "spice-harbour-hero",
       "description": "An evening view of the Spice Harbour restaurant by the water.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?harbour-restaurant",
+      "imageUrl": "https://picsum.photos/seed/spice-harbour-hero/800/600",
       "imageHint": "harbour restaurant"
     },
     {
       "id": "spice-harbour-gallery-1",
       "description": "A seafood platter with various grilled items.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?seafood-platter",
+      "imageUrl": "https://picsum.photos/seed/spice-harbour-gallery-1/600/400",
       "imageHint": "seafood platter"
     },
     {
       "id": "spice-harbour-gallery-2",
       "description": "Diners enjoying the waterfront view.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?waterfront-dining",
+      "imageUrl": "https://picsum.photos/seed/spice-harbour-gallery-2/600/400",
       "imageHint": "waterfront dining"
     },
     {
       "id": "new-spot-1-hero",
       "description": "Vibrant interior of a modern eatery.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?modern-eatery",
+      "imageUrl": "https://picsum.photos/seed/new-spot-1-hero/800/600",
       "imageHint": "modern eatery"
     },
     {
       "id": "new-spot-1-gallery-1",
       "description": "A gourmet burger.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?gourmet-burger",
+      "imageUrl": "https://picsum.photos/seed/new-spot-1-gallery-1/600/400",
       "imageHint": "gourmet burger"
     },
     {
       "id": "new-spot-1-gallery-2",
       "description": "A refreshing craft cocktail.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?craft-cocktail",
+      "imageUrl": "https://picsum.photos/seed/new-spot-1-gallery-2/600/400",
       "imageHint": "craft cocktail"
     },
     {
       "id": "new-spot-2-hero",
       "description": "Cozy corner of a coffee shop.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?coffee-shop",
+      "imageUrl": "https://picsum.photos/seed/new-spot-2-hero/800/600",
       "imageHint": "coffee shop"
     },
     {
       "id": "new-spot-2-gallery-1",
       "description": "Latte art in a ceramic mug.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?latte-art",
+      "imageUrl": "https://picsum.photos/seed/new-spot-2-gallery-1/600/400",
       "imageHint": "latte art"
     },
     {
       "id": "new-spot-2-gallery-2",
       "description": "A freshly baked croissant.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?baked-croissant",
+      "imageUrl": "https://picsum.photos/seed/new-spot-2-gallery-2/600/400",
       "imageHint": "baked croissant"
     },
     {
       "id": "new-spot-3-hero",
       "description": "Traditional south indian restaurant ambiance.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?indian-ambiance",
+      "imageUrl": "https://picsum.photos/seed/new-spot-3-hero/800/600",
       "imageHint": "indian ambiance"
     },
     {
       "id": "new-spot-3-gallery-1",
       "description": "A plate of idli and sambar.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?idli-sambar",
+      "imageUrl": "https://picsum.photos/seed/new-spot-3-gallery-1/600/400",
       "imageHint": "idli sambar"
     },
     {
       "id": "new-spot-3-gallery-2",
       "description": "Filter coffee in a traditional cup.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?filter-coffee",
+      "imageUrl": "https://picsum.photos/seed/new-spot-3-gallery-2/600/400",
       "imageHint": "filter coffee"
     },
     {
       "id": "new-spot-4-hero",
       "description": "A fine dining setup with elegant table arrangement.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?fine-dining",
+      "imageUrl": "https://picsum.photos/seed/new-spot-4-hero/800/600",
       "imageHint": "fine dining"
     },
     {
       "id": "new-spot-4-gallery-1",
       "description": "An elaborately plated dessert.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?plated-dessert",
+      "imageUrl": "https://picsum.photos/seed/new-spot-4-gallery-1/600/400",
       "imageHint": "plated dessert"
     },
     {
       "id": "new-spot-4-gallery-2",
       "description": "A glass of red wine.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?red-wine",
+      "imageUrl": "https://picsum.photos/seed/new-spot-4-gallery-2/600/400",
       "imageHint": "red wine"
     },
     {
       "id": "new-spot-5-hero",
       "description": "Rooftop bar with a city view at night.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?rooftop-bar",
+      "imageUrl": "https://picsum.photos/seed/new-spot-5-hero/800/600",
       "imageHint": "rooftop bar"
     },
     {
       "id": "new-spot-5-gallery-1",
       "description": "Colorful mocktails on a bar counter.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?colorful-mocktails",
+      "imageUrl": "https://picsum.photos/seed/new-spot-5-gallery-1/600/400",
       "imageHint": "colorful mocktails"
     },
     {
       "id": "new-spot-5-gallery-2",
       "description": "A plate of appetizers.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?appetizer-plate",
+      "imageUrl": "https://picsum.photos/seed/new-spot-5-gallery-2/600/400",
       "imageHint": "appetizer plate"
     },
     {
       "id": "new-spot-6-hero",
       "description": "A beachside shack restaurant.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?beachside-shack",
+      "imageUrl": "https://picsum.photos/seed/new-spot-6-hero/800/600",
       "imageHint": "beachside shack"
     },
     {
       "id": "new-spot-6-gallery-1",
       "description": "Grilled prawns on a skewer.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?grilled-prawns",
+      "imageUrl": "https://picsum.photos/seed/new-spot-6-gallery-1/600/400",
       "imageHint": "grilled prawns"
     },
     {
       "id": "new-spot-6-gallery-2",
       "description": "A coconut water drink.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?coconut-water",
+      "imageUrl": "https://picsum.photos/seed/new-spot-6-gallery-2/600/400",
       "imageHint": "coconut water"
     },
     {
       "id": "new-spot-7-hero",
       "description": "A family friendly pizza place.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?pizza-place",
+      "imageUrl": "https://picsum.photos/seed/new-spot-7-hero/800/600",
       "imageHint": "pizza place"
     },
     {
       "id": "new-spot-7-gallery-1",
       "description": "A large pepperoni pizza.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?pepperoni-pizza",
+      "imageUrl": "https://picsum.photos/seed/new-spot-7-gallery-1/600/400",
       "imageHint": "pepperoni pizza"
     },
     {
       "id": "new-spot-7-gallery-2",
       "description": "Garlic bread with cheese.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?garlic-bread",
+      "imageUrl": "https://picsum.photos/seed/new-spot-7-gallery-2/600/400",
       "imageHint": "garlic bread"
     },
     {
       "id": "new-spot-8-hero",
       "description": "A street food stall at night.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?street-food",
+      "imageUrl": "https://picsum.photos/seed/new-spot-8-hero/800/600",
       "imageHint": "street food"
     },
     {
       "id": "new-spot-8-gallery-1",
       "description": "A plate of pani puri.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?pani-puri",
+      "imageUrl": "https://picsum.photos/seed/new-spot-8-gallery-1/600/400",
       "imageHint": "pani puri"
     },
     {
       "id": "new-spot-8-gallery-2",
       "description": "A vendor preparing food.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?food-vendor",
+      "imageUrl": "https://picsum.photos/seed/new-spot-8-gallery-2/600/400",
       "imageHint": "food vendor"
     },
     {
       "id": "new-spot-9-hero",
       "description": "A quiet and elegant Japanese restaurant.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?japanese-restaurant",
+      "imageUrl": "https://picsum.photos/seed/new-spot-9-hero/800/600",
       "imageHint": "japanese restaurant"
     },
     {
       "id": "new-spot-9-gallery-1",
       "description": "A platter of assorted sushi.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?sushi-platter",
+      "imageUrl": "https://picsum.photos/seed/new-spot-9-gallery-1/600/400",
       "imageHint": "sushi platter"
     },
     {
       "id": "new-spot-9-gallery-2",
       "description": "A bowl of ramen.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?ramen-bowl",
+      "imageUrl": "https://picsum.photos/seed/new-spot-9-gallery-2/600/400",
       "imageHint": "ramen bowl"
     },
     {
       "id": "new-spot-10-hero",
       "description": "A bustling chinese restaurant with red lanterns.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?chinese-restaurant",
+      "imageUrl": "https://picsum.photos/seed/new-spot-10-hero/800/600",
       "imageHint": "chinese restaurant"
     },
     {
       "id": "new-spot-10-gallery-1",
       "description": "A plate of dumplings.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?dumplings-plate",
+      "imageUrl": "https://picsum.photos/seed/new-spot-10-gallery-1/600/400",
       "imageHint": "dumplings plate"
     },
     {
       "id": "new-spot-10-gallery-2",
       "description": "A bowl of hot and sour soup.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?sour-soup",
+      "imageUrl": "https://picsum.photos/seed/new-spot-10-gallery-2/600/400",
       "imageHint": "sour soup"
     },
     {
       "id": "new-spot-11-hero",
       "description": "A cozy bakery with fresh bread.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?cozy-bakery",
+      "imageUrl": "https://picsum.photos/seed/new-spot-11-hero/800/600",
       "imageHint": "cozy bakery"
     },
     {
       "id": "new-spot-11-gallery-1",
       "description": "A variety of cakes and pastries.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?cakes-pastries",
+      "imageUrl": "https://picsum.photos/seed/new-spot-11-gallery-1/600/400",
       "imageHint": "cakes pastries"
     },
     {
       "id": "new-spot-11-gallery-2",
       "description": "A cup of hot chocolate.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?hot-chocolate",
+      "imageUrl": "https://picsum.photos/seed/new-spot-11-gallery-2/600/400",
       "imageHint": "hot chocolate"
     },
     {
       "id": "new-spot-12-hero",
       "description": "A modern ice cream parlor.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?ice-cream",
+      "imageUrl": "https://picsum.photos/seed/new-spot-12-hero/800/600",
       "imageHint": "ice cream"
     },
     {
       "id": "new-spot-12-gallery-1",
       "description": "A colorful ice cream sundae.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?ice-cream",
+      "imageUrl": "https://picsum.photos/seed/new-spot-12-gallery-1/600/400",
       "imageHint": "ice cream"
     },
     {
       "id": "new-spot-12-gallery-2",
       "description": "Ice cream cones with different flavors.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?ice-cream",
+      "imageUrl": "https://picsum.photos/seed/new-spot-12-gallery-2/600/400",
       "imageHint": "ice cream"
     },
     {
       "id": "new-spot-13-hero",
       "description": "A traditional tea house.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?tea-house",
+      "imageUrl": "https://picsum.photos/seed/new-spot-13-hero/800/600",
       "imageHint": "tea house"
     },
     {
       "id": "new-spot-13-gallery-1",
       "description": "A variety of indian snacks.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?indian-snacks",
+      "imageUrl": "https://picsum.photos/seed/new-spot-13-gallery-1/600/400",
       "imageHint": "indian snacks"
     },
     {
       "id": "new-spot-13-gallery-2",
       "description": "A cup of masala chai.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?masala-chai",
+      "imageUrl": "https://picsum.photos/seed/new-spot-13-gallery-2/600/400",
       "imageHint": "masala chai"
     },
     {
       "id": "new-spot-14-hero",
       "description": "A vegetarian-friendly restaurant with green decor.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?vegetarian-restaurant",
+      "imageUrl": "https://picsum.photos/seed/new-spot-14-hero/800/600",
       "imageHint": "vegetarian restaurant"
     },
     {
       "id": "new-spot-14-gallery-1",
       "description": "A healthy salad bowl.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?salad-bowl",
+      "imageUrl": "https://picsum.photos/seed/new-spot-14-gallery-1/600/400",
       "imageHint": "salad bowl"
     },
     {
       "id": "new-spot-14-gallery-2",
       "description": "A glass of fresh juice.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?fresh-juice",
+      "imageUrl": "https://picsum.photos/seed/new-spot-14-gallery-2/600/400",
       "imageHint": "fresh juice"
     },
     {
       "id": "new-spot-15-hero",
       "description": "A lively pub with a band playing.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?lively-pub",
+      "imageUrl": "https://picsum.photos/seed/new-spot-15-hero/800/600",
       "imageHint": "lively pub"
     },
     {
       "id": "new-spot-15-gallery-1",
       "description": "A pint of beer.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?pint-beer",
+      "imageUrl": "https://picsum.photos/seed/new-spot-15-gallery-1/600/400",
       "imageHint": "pint beer"
     },
     {
       "id": "new-spot-15-gallery-2",
       "description": "A plate of chicken wings.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?chicken-wings",
+      "imageUrl": "https://picsum.photos/seed/new-spot-15-gallery-2/600/400",
       "imageHint": "chicken wings"
     },
     {
       "id": "new-spot-16-hero",
       "description": "A simple diner with classic booths.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?classic-diner",
+      "imageUrl": "https://picsum.photos/seed/new-spot-16-hero/800/600",
       "imageHint": "classic diner"
     },
     {
       "id": "new-spot-16-gallery-1",
       "description": "A stack of pancakes with syrup.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?pancakes-syrup",
+      "imageUrl": "https://picsum.photos/seed/new-spot-16-gallery-1/600/400",
       "imageHint": "pancakes syrup"
     },
     {
       "id": "new-spot-16-gallery-2",
       "description": "A classic milkshake.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?classic-milkshake",
+      "imageUrl": "https://picsum.photos/seed/new-spot-16-gallery-2/600/400",
       "imageHint": "classic milkshake"
     },
     {
       "id": "new-spot-17-hero",
       "description": "A trendy cafe with industrial decor.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?trendy-cafe",
+      "imageUrl": "https://picsum.photos/seed/new-spot-17-hero/800/600",
       "imageHint": "trendy cafe"
     },
     {
       "id": "new-spot-17-gallery-1",
       "description": "An avocado toast with a poached egg.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?avocado-toast",
+      "imageUrl": "https://picsum.photos/seed/new-spot-17-gallery-1/600/400",
       "imageHint": "avocado toast"
     },
     {
       "id": "new-spot-17-gallery-2",
       "description": "A cup of specialty coffee.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?specialty-coffee",
+      "imageUrl": "https://picsum.photos/seed/new-spot-17-gallery-2/600/400",
       "imageHint": "specialty coffee"
     },
     {
       "id": "new-spot-18-hero",
       "description": "A mexican restaurant with colorful decorations.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?mexican-restaurant",
+      "imageUrl": "https://picsum.photos/seed/new-spot-18-hero/800/600",
       "imageHint": "mexican restaurant"
     },
     {
       "id": "new-spot-18-gallery-1",
       "description": "A plate of tacos.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?tacos-plate",
+      "imageUrl": "https://picsum.photos/seed/new-spot-18-gallery-1/600/400",
       "imageHint": "tacos plate"
     },
     {
       "id": "new-spot-18-gallery-2",
       "description": "A glass of margarita.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?margarita-glass",
+      "imageUrl": "https://picsum.photos/seed/new-spot-18-gallery-2/600/400",
       "imageHint": "margarita glass"
     },
     {
       "id": "new-spot-19-hero",
       "description": "A high-end restaurant with a tasting menu.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?tasting-menu",
+      "imageUrl": "https://picsum.photos/seed/new-spot-19-hero/800/600",
       "imageHint": "tasting menu"
     },
     {
       "id": "new-spot-19-gallery-1",
       "description": "A dish from the tasting menu.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?tasting-dish",
+      "imageUrl": "https://picsum.photos/seed/new-spot-19-gallery-1/600/400",
       "imageHint": "tasting dish"
     },
     {
       "id": "new-spot-19-gallery-2",
       "description": "The wine cellar of the restaurant.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?wine-cellar",
+      "imageUrl": "https://picsum.photos/seed/new-spot-19-gallery-2/600/400",
       "imageHint": "wine cellar"
     },
     {
       "id": "new-spot-20-hero",
       "description": "A barbecue joint with picnic tables.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?barbecue-joint",
+      "imageUrl": "https://picsum.photos/seed/new-spot-20-hero/800/600",
       "imageHint": "barbecue joint"
     },
     {
       "id": "new-spot-20-gallery-1",
       "description": "A rack of ribs with barbecue sauce.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?rack-ribs",
+      "imageUrl": "https://picsum.photos/seed/new-spot-20-gallery-1/600/400",
       "imageHint": "rack ribs"
     },
     {
       "id": "new-spot-20-gallery-2",
       "description": "A plate of pulled pork.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?pulled-pork",
+      "imageUrl": "https://picsum.photos/seed/new-spot-20-gallery-2/600/400",
       "imageHint": "pulled pork"
     },
     {
       "id": "new-spot-21-hero",
       "description": "Thai restaurant with authentic decor.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?thai-restaurant",
+      "imageUrl": "https://picsum.photos/seed/new-spot-21-hero/800/600",
       "imageHint": "thai restaurant"
     },
     {
       "id": "new-spot-21-gallery-1",
       "description": "Bowl of green curry.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?green-curry",
+      "imageUrl": "https://picsum.photos/seed/new-spot-21-gallery-1/600/400",
       "imageHint": "green curry"
     },
     {
       "id": "new-spot-21-gallery-2",
       "description": "Plate of Pad Thai noodles.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?pad-thai",
+      "imageUrl": "https://picsum.photos/seed/new-spot-21-gallery-2/600/400",
       "imageHint": "pad thai"
     },
     {
       "id": "new-spot-22-hero",
       "description": "Vietnamese restaurant interior.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?vietnamese-restaurant",
+      "imageUrl": "https://picsum.photos/seed/new-spot-22-hero/800/600",
       "imageHint": "vietnamese restaurant"
     },
     {
       "id": "new-spot-22-gallery-1",
       "description": "A large bowl of pho.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?pho-bowl",
+      "imageUrl": "https://picsum.photos/seed/new-spot-22-gallery-1/600/400",
       "imageHint": "pho bowl"
     },
     {
       "id": "new-spot-22-gallery-2",
       "description": "Fresh spring rolls.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?spring-rolls",
+      "imageUrl": "https://picsum.photos/seed/new-spot-22-gallery-2/600/400",
       "imageHint": "spring rolls"
     },
     {
       "id": "new-spot-23-hero",
       "description": "A rustic Italian pasta bar.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?pasta-bar",
+      "imageUrl": "https://picsum.photos/seed/new-spot-23-hero/800/600",
       "imageHint": "pasta bar"
     },
     {
       "id": "new-spot-23-gallery-1",
       "description": "Chef making fresh pasta.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?making-pasta",
+      "imageUrl": "https://picsum.photos/seed/new-spot-23-gallery-1/600/400",
       "imageHint": "making pasta"
     },
     {
       "id": "new-spot-23-gallery-2",
       "description": "A plate of carbonara.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?carbonara-plate",
+      "imageUrl": "https://picsum.photos/seed/new-spot-23-gallery-2/600/400",
       "imageHint": "carbonara plate"
     },
     {
       "id": "new-spot-24-hero",
       "description": "A lively food truck park.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?food-park",
+      "imageUrl": "https://picsum.photos/seed/new-spot-24-hero/800/600",
       "imageHint": "food park"
     },
     {
       "id": "new-spot-24-gallery-1",
       "description": "People ordering from food trucks.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?food-trucks",
+      "imageUrl": "https://picsum.photos/seed/new-spot-24-gallery-1/600/400",
       "imageHint": "food trucks"
     },
     {
       "id": "new-spot-24-gallery-2",
       "description": "A variety of street food dishes.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?street-food",
+      "imageUrl": "https://picsum.photos/seed/new-spot-24-gallery-2/600/400",
       "imageHint": "street food"
     },
     {
       "id": "new-spot-25-hero",
       "description": "A vegan cafe with lots of plants.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?vegan-cafe",
+      "imageUrl": "https://picsum.photos/seed/new-spot-25-hero/800/600",
       "imageHint": "vegan cafe"
     },
     {
       "id": "new-spot-25-gallery-1",
       "description": "A colorful vegan buddha bowl.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?buddha-bowl",
+      "imageUrl": "https://picsum.photos/seed/new-spot-25-gallery-1/600/400",
       "imageHint": "buddha bowl"
     },
     {
       "id": "new-spot-25-gallery-2",
       "description": "A vegan burger with sweet potato fries.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?vegan-burger",
+      "imageUrl": "https://picsum.photos/seed/new-spot-25-gallery-2/600/400",
       "imageHint": "vegan burger"
     },
     {
       "id": "new-spot-26-hero",
       "description": "Seafood grill on the beach.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?seafood-grill",
+      "imageUrl": "https://picsum.photos/seed/new-spot-26-hero/800/600",
       "imageHint": "seafood grill"
     },
     {
       "id": "new-spot-26-gallery-1",
       "description": "A whole grilled fish.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?grilled-fish",
+      "imageUrl": "https://picsum.photos/seed/new-spot-26-gallery-1/600/400",
       "imageHint": "grilled fish"
     },
     {
       "id": "new-spot-26-gallery-2",
       "description": "Sunset view from the restaurant.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?sunset-view",
+      "imageUrl": "https://picsum.photos/seed/new-spot-26-gallery-2/600/400",
       "imageHint": "sunset view"
     },
     {
       "id": "new-spot-27-hero",
       "description": "A classic French bistro setting.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?french-bistro",
+      "imageUrl": "https://picsum.photos/seed/new-spot-27-hero/800/600",
       "imageHint": "french bistro"
     },
     {
       "id": "new-spot-27-gallery-1",
       "description": "A plate of steak frites.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?steak-frites",
+      "imageUrl": "https://picsum.photos/seed/new-spot-27-gallery-1/600/400",
       "imageHint": "steak frites"
     },
     {
       "id": "new-spot-27-gallery-2",
       "description": "A bowl of French onion soup.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?onion-soup",
+      "imageUrl": "https://picsum.photos/seed/new-spot-27-gallery-2/600/400",
       "imageHint": "onion soup"
     },
     {
       "id": "new-spot-28-hero",
       "description": "A modern tapas bar.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?tapas-bar",
+      "imageUrl": "https://picsum.photos/seed/new-spot-28-hero/800/600",
       "imageHint": "tapas bar"
     },
     {
       "id": "new-spot-28-gallery-1",
       "description": "A selection of different tapas.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?selection-tapas",
+      "imageUrl": "https://picsum.photos/seed/new-spot-28-gallery-1/600/400",
       "imageHint": "selection tapas"
     },
     {
       "id": "new-spot-28-gallery-2",
       "description": "A pitcher of sangria.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?sangria-pitcher",
+      "imageUrl": "https://picsum.photos/seed/new-spot-28-gallery-2/600/400",
       "imageHint": "sangria pitcher"
     },
     {
       "id": "new-spot-29-hero",
       "description": "An all-you-can-eat buffet spread.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?buffet-spread",
+      "imageUrl": "https://picsum.photos/seed/new-spot-29-hero/800/600",
       "imageHint": "buffet spread"
     },
     {
       "id": "new-spot-29-gallery-1",
       "description": "People serving themselves at the buffet.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?buffet-line",
+      "imageUrl": "https://picsum.photos/seed/new-spot-29-gallery-1/600/400",
       "imageHint": "buffet line"
     },
     {
       "id": "new-spot-29-gallery-2",
       "description": "A dessert section at the buffet.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?dessert-buffet",
+      "imageUrl": "https://picsum.photos/seed/new-spot-29-gallery-2/600/400",
       "imageHint": "dessert buffet"
     },
     {
       "id": "new-spot-30-hero",
       "description": "A gourmet donut shop.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?donut-shop",
+      "imageUrl": "https://picsum.photos/seed/new-spot-30-hero/800/600",
       "imageHint": "donut shop"
     },
     {
       "id": "new-spot-30-gallery-1",
       "description": "A box of colorful donuts.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?colorful-donuts",
+      "imageUrl": "https://picsum.photos/seed/new-spot-30-gallery-1/600/400",
       "imageHint": "colorful donuts"
     },
     {
       "id": "new-spot-30-gallery-2",
       "description": "A single beautifully decorated donut.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?decorated-donut",
+      "imageUrl": "https://picsum.photos/seed/new-spot-30-gallery-2/600/400",
       "imageHint": "decorated donut"
     },
     {
       "id": "new-spot-31-hero",
       "description": "A classic Kerala toddy shop.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?toddy-shop",
+      "imageUrl": "https://picsum.photos/seed/new-spot-31-hero/800/600",
       "imageHint": "toddy shop"
     },
     {
       "id": "new-spot-31-gallery-1",
       "description": "Spicy fish curry served in a clay pot.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?fish-curry",
+      "imageUrl": "https://picsum.photos/seed/new-spot-31-gallery-1/600/400",
       "imageHint": "fish curry"
     },
     {
       "id": "new-spot-31-gallery-2",
       "description": "A glass of toddy.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?toddy-glass",
+      "imageUrl": "https://picsum.photos/seed/new-spot-31-gallery-2/600/400",
       "imageHint": "toddy glass"
     },
     {
       "id": "new-spot-32-hero",
       "description": "A bustling biryani house.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?biryani-house",
+      "imageUrl": "https://picsum.photos/seed/new-spot-32-hero/800/600",
       "imageHint": "biryani house"
     },
     {
       "id": "new-spot-32-gallery-1",
       "description": "A large pot of biryani being served.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?biryani-pot",
+      "imageUrl": "https://picsum.photos/seed/new-spot-32-gallery-1/600/400",
       "imageHint": "biryani pot"
     },
     {
       "id": "new-spot-32-gallery-2",
       "description": "A plate of chicken biryani with raita.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?chicken-biryani",
+      "imageUrl": "https://picsum.photos/seed/new-spot-32-gallery-2/600/400",
       "imageHint": "chicken biryani"
     },
     {
       "id": "new-spot-33-hero",
       "description": "A charming cafe in Fort Kochi.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?kochi-cafe",
+      "imageUrl": "https://picsum.photos/seed/new-spot-33-hero/800/600",
       "imageHint": "kochi cafe"
     },
     {
       "id": "new-spot-33-gallery-1",
       "description": "Iced coffee on a wooden table.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?iced-coffee",
+      "imageUrl": "https://picsum.photos/seed/new-spot-33-gallery-1/600/400",
       "imageHint": "iced coffee"
     },
     {
       "id": "new-spot-33-gallery-2",
       "description": "A sandwich and a book.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?cafe-reading",
+      "imageUrl": "https://picsum.photos/seed/new-spot-33-gallery-2/600/400",
       "imageHint": "cafe reading"
     },
     {
       "id": "new-spot-34-hero",
       "description": "A restaurant specializing in Kerala breakfasts.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?kerala-breakfast",
+      "imageUrl": "https://picsum.photos/seed/new-spot-34-hero/800/600",
       "imageHint": "kerala breakfast"
     },
     {
       "id": "new-spot-34-gallery-1",
       "description": "A plate of puttu and kadala curry.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?puttu-kadala",
+      "imageUrl": "https://picsum.photos/seed/new-spot-34-gallery-1/600/400",
       "imageHint": "puttu kadala"
     },
     {
       "id": "new-spot-34-gallery-2",
       "description": "Appam being made on a pan.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?appam-pan",
+      "imageUrl": "https://picsum.photos/seed/new-spot-34-gallery-2/600/400",
       "imageHint": "appam pan"
     },
     {
       "id": "new-spot-35-hero",
-      "description": "A seafood restaurant with Chinese fishing nets view.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?fishing-nets",
+      "description": "A restaurant with Chinese fishing nets view.",
+      "imageUrl": "https://picsum.photos/seed/new-spot-35-hero/800/600",
       "imageHint": "fishing nets"
     },
     {
       "id": "new-spot-35-gallery-1",
       "description": "A plate of fried prawns.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?fried-prawns",
+      "imageUrl": "https://picsum.photos/seed/new-spot-35-gallery-1/600/400",
       "imageHint": "fried prawns"
     },
     {
       "id": "new-spot-35-gallery-2",
       "description": "The catch of the day on display.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?fresh-fish",
+      "imageUrl": "https://picsum.photos/seed/new-spot-35-gallery-2/600/400",
       "imageHint": "fresh fish"
     },
     {
       "id": "new-spot-36-hero",
       "description": "A restaurant in a heritage hotel.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?heritage-hotel",
+      "imageUrl": "https://picsum.photos/seed/new-spot-36-hero/800/600",
       "imageHint": "heritage hotel"
     },
     {
       "id": "new-spot-36-gallery-1",
       "description": "An elegant dining room.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?elegant-dining",
+      "imageUrl": "https://picsum.photos/seed/new-spot-36-gallery-1/600/400",
       "imageHint": "elegant dining"
     },
     {
       "id": "new-spot-36-gallery-2",
       "description": "A colonial-era building exterior.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?colonial-building",
+      "imageUrl": "https://picsum.photos/seed/new-spot-36-gallery-2/600/400",
       "imageHint": "colonial building"
     },
     {
       "id": "new-spot-37-hero",
       "description": "A juice and smoothie bar.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?juice-bar",
+      "imageUrl": "https://picsum.photos/seed/new-spot-37-hero/800/600",
       "imageHint": "juice bar"
     },
     {
       "id": "new-spot-37-gallery-1",
       "description": "A row of colorful smoothies.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?colorful-smoothies",
+      "imageUrl": "https://picsum.photos/seed/new-spot-37-gallery-1/600/400",
       "imageHint": "colorful smoothies"
     },
     {
       "id": "new-spot-37-gallery-2",
       "description": "A fruit platter.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?fruit-platter",
+      "imageUrl": "https://picsum.photos/seed/new-spot-37-gallery-2/600/400",
       "imageHint": "fruit platter"
     },
     {
       "id": "new-spot-38-hero",
       "description": "A local eatery famous for porotta and beef.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?local-eatery",
+      "imageUrl": "https://picsum.photos/seed/new-spot-38-hero/800/600",
       "imageHint": "local eatery"
     },
     {
       "id": "new-spot-38-gallery-1",
       "description": "A plate of porotta and beef fry.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?porotta-beef",
+      "imageUrl": "https://picsum.photos/seed/new-spot-38-gallery-1/600/400",
       "imageHint": "porotta beef"
     },
     {
       "id": "new-spot-38-gallery-2",
       "description": "A chef flipping porotta.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?making-porotta",
+      "imageUrl": "https://picsum.photos/seed/new-spot-38-gallery-2/600/400",
       "imageHint": "making porotta"
     },
     {
       "id": "new-spot-39-hero",
       "description": "A cafe overlooking the ocean.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?ocean-cafe",
+      "imageUrl": "https://picsum.photos/seed/new-spot-39-hero/800/600",
       "imageHint": "ocean cafe"
     },
     {
       "id": "new-spot-39-gallery-1",
       "description": "A cup of tea with a sea view.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?tea-view",
+      "imageUrl": "https://picsum.photos/seed/new-spot-39-gallery-1/600/400",
       "imageHint": "tea view"
     },
     {
       "id": "new-spot-39-gallery-2",
       "description": "A light snack by the window.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?window-snack",
+      "imageUrl": "https://picsum.photos/seed/new-spot-39-gallery-2/600/400",
       "imageHint": "window snack"
     },
     {
       "id": "new-spot-40-hero",
       "description": "A restaurant with live traditional music.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?live-music",
+      "imageUrl": "https://picsum.photos/seed/new-spot-40-hero/800/600",
       "imageHint": "live music"
     },
     {
       "id": "new-spot-40-gallery-1",
       "description": "Musicians playing classical Indian instruments.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?indian-instruments",
+      "imageUrl": "https://picsum.photos/seed/new-spot-40-gallery-1/600/400",
       "imageHint": "indian instruments"
     },
     {
       "id": "new-spot-40-gallery-2",
       "description": "Guests watching the performance.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?watching-performance",
+      "imageUrl": "https://picsum.photos/seed/new-spot-40-gallery-2/600/400",
       "imageHint": "watching performance"
     },
     {
       "id": "new-spot-41-hero",
       "description": "A modern continental restaurant interior.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?continental-restaurant",
+      "imageUrl": "https://picsum.photos/seed/new-spot-41-hero/800/600",
       "imageHint": "continental restaurant"
     },
     {
       "id": "new-spot-41-gallery-1",
       "description": "A plate of grilled chicken with vegetables.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?grilled-chicken",
+      "imageUrl": "https://picsum.photos/seed/new-spot-41-gallery-1/600/400",
       "imageHint": "grilled chicken"
     },
     {
       "id": "new-spot-41-gallery-2",
       "description": "A creamy pasta dish.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?creamy-pasta",
+      "imageUrl": "https://picsum.photos/seed/new-spot-41-gallery-2/600/400",
       "imageHint": "creamy pasta"
     },
     {
       "id": "new-spot-42-hero",
       "description": "A South Indian vegetarian restaurant.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?vegetarian-restaurant",
+      "imageUrl": "https://picsum.photos/seed/new-spot-42-hero/800/600",
       "imageHint": "vegetarian restaurant"
     },
     {
       "id": "new-spot-42-gallery-1",
       "description": "A banana leaf meal (sadhya).",
-      "imageUrl": "https://source.unsplash.com/random/600x400?sadhya-meal",
+      "imageUrl": "https://picsum.photos/seed/new-spot-42-gallery-1/600/400",
       "imageHint": "sadhya meal"
     },
     {
       "id": "new-spot-42-gallery-2",
       "description": "A variety of chutneys and pickles.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?chutneys-pickles",
+      "imageUrl": "https://picsum.photos/seed/new-spot-42-gallery-2/600/400",
       "imageHint": "chutneys pickles"
     },
     {
       "id": "new-spot-43-hero",
       "description": "A restaurant specializing in Kerala snacks.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?kerala-snacks",
+      "imageUrl": "https://picsum.photos/seed/new-spot-43-hero/800/600",
       "imageHint": "kerala snacks"
     },
     {
       "id": "new-spot-43-gallery-1",
       "description": "A plate of banana fritters (pazham pori).",
-      "imageUrl": "https://source.unsplash.com/random/600x400?banana-fritters",
+      "imageUrl": "https://picsum.photos/seed/new-spot-43-gallery-1/600/400",
       "imageHint": "banana fritters"
     },
     {
       "id": "new-spot-43-gallery-2",
       "description": "A selection of fried snacks.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?fried-snacks",
+      "imageUrl": "https://picsum.photos/seed/new-spot-43-gallery-2/600/400",
       "imageHint": "fried snacks"
     },
     {
       "id": "new-spot-44-hero",
       "description": "A rooftop restaurant with a pool.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?rooftop-pool",
+      "imageUrl": "https://picsum.photos/seed/new-spot-44-hero/800/600",
       "imageHint": "rooftop pool"
     },
     {
       "id": "new-spot-44-gallery-1",
       "description": "Dining tables set up by the poolside.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?poolside-dining",
+      "imageUrl": "https://picsum.photos/seed/new-spot-44-gallery-1/600/400",
       "imageHint": "poolside dining"
     },
     {
       "id": "new-spot-44-gallery-2",
       "description": "A cocktail by the pool.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?pool-cocktail",
+      "imageUrl": "https://picsum.photos/seed/new-spot-44-gallery-2/600/400",
       "imageHint": "pool cocktail"
     },
     {
       "id": "new-spot-45-hero",
       "description": "A contemporary Indian restaurant.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?indian-restaurant",
+      "imageUrl": "https://picsum.photos/seed/new-spot-45-hero/800/600",
       "imageHint": "indian restaurant"
     },
     {
       "id": "new-spot-45-gallery-1",
       "description": "A modern take on a classic Indian dish.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?modern-indian",
+      "imageUrl": "https://picsum.photos/seed/new-spot-45-gallery-1/600/400",
       "imageHint": "modern indian"
     },
     {
       "id": "new-spot-45-gallery-2",
       "description": "An artisanal Indian dessert.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?indian-dessert",
+      "imageUrl": "https://picsum.photos/seed/new-spot-45-gallery-2/600/400",
       "imageHint": "indian dessert"
     },
     {
       "id": "new-spot-46-hero",
       "description": "A historic building converted into a restaurant.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?historic-building",
+      "imageUrl": "https://picsum.photos/seed/new-spot-46-hero/800/600",
       "imageHint": "historic building"
     },
     {
       "id": "new-spot-46-gallery-1",
       "description": "The courtyard of the historic restaurant.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?restaurant-courtyard",
+      "imageUrl": "https://picsum.photos/seed/new-spot-46-gallery-1/600/400",
       "imageHint": "restaurant courtyard"
     },
     {
       "id": "new-spot-46-gallery-2",
       "description": "An antique detail inside the restaurant.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?antique-detail",
+      "imageUrl": "https://picsum.photos/seed/new-spot-46-gallery-2/600/400",
       "imageHint": "antique detail"
     },
     {
       "id": "new-spot-47-hero",
       "description": "A waterfront eatery specializing in local catch.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?waterfront-eatery",
+      "imageUrl": "https://picsum.photos/seed/new-spot-47-hero/800/600",
       "imageHint": "waterfront eatery"
     },
     {
       "id": "new-spot-47-gallery-1",
       "description": "Fishermen bringing in the fresh catch.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?fresh-catch",
+      "imageUrl": "https://picsum.photos/seed/new-spot-47-gallery-1/600/400",
       "imageHint": "fresh catch"
     },
     {
       "id": "new-spot-47-gallery-2",
       "description": "A spicy crab dish.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?crab-dish",
+      "imageUrl": "https://picsum.photos/seed/new-spot-47-gallery-2/600/400",
       "imageHint": "crab dish"
     },
     {
       "id": "new-spot-48-hero",
       "description": "A garden restaurant with outdoor seating.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?garden-restaurant",
+      "imageUrl": "https://picsum.photos/seed/new-spot-48-hero/800/600",
       "imageHint": "garden restaurant"
     },
     {
       "id": "new-spot-48-gallery-1",
       "description": "People dining under fairy lights.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?fairy-lights",
+      "imageUrl": "https://picsum.photos/seed/new-spot-48-gallery-1/600/400",
       "imageHint": "fairy lights"
     },
     {
       "id": "new-spot-48-gallery-2",
       "description": "A dish made with fresh garden vegetables.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?garden-vegetables",
+      "imageUrl": "https://picsum.photos/seed/new-spot-48-gallery-2/600/400",
       "imageHint": "garden vegetables"
     },
     {
       "id": "new-spot-49-hero",
       "description": "A small, family-run eatery.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?family-eatery",
+      "imageUrl": "https://picsum.photos/seed/new-spot-49-hero/800/600",
       "imageHint": "family eatery"
     },
     {
       "id": "new-spot-49-gallery-1",
       "description": "A home-style cooked meal.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?home-style",
+      "imageUrl": "https://picsum.photos/seed/new-spot-49-gallery-1/600/400",
       "imageHint": "home style"
     },
     {
       "id": "new-spot-49-gallery-2",
       "description": "The friendly owners of the eatery.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?friendly-owners",
+      "imageUrl": "https://picsum.photos/seed/new-spot-49-gallery-2/600/400",
       "imageHint": "friendly owners"
     },
     {
       "id": "new-spot-50-hero",
       "description": "An Arabic restaurant with themed decor.",
-      "imageUrl": "https://source.unsplash.com/random/800x600?arabic-restaurant",
+      "imageUrl": "https://picsum.photos/seed/new-spot-50-hero/800/600",
       "imageHint": "arabic restaurant"
     },
     {
       "id": "new-spot-50-gallery-1",
       "description": "A platter of shawarma and hummus.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?shawarma-hummus",
+      "imageUrl": "https://picsum.photos/seed/new-spot-50-gallery-1/600/400",
       "imageHint": "shawarma hummus"
     },
     {
       "id": "new-spot-50-gallery-2",
       "description": "A grill with kebabs cooking.",
-      "imageUrl": "https://source.unsplash.com/random/600x400?grill-kebabs",
+      "imageUrl": "https://picsum.photos/seed/new-spot-50-gallery-2/600/400",
       "imageHint": "grill kebabs"
     }
   ]
