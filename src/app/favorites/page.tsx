@@ -31,9 +31,9 @@ export default function FavoritesPage() {
         {isLoaded && favoriteRestaurants.length > 0 && (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
             {favoriteRestaurants.map(restaurant => (
-              <Link key={restaurant.id} href={`/restaurants/${restaurant.id}`} className="group block">
+              <div key={restaurant.id} className="group">
                 <RestaurantCard restaurant={restaurant} />
-              </Link>
+              </div>
             ))}
           </div>
         )}
