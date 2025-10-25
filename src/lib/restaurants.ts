@@ -75,4 +75,30 @@ export const restaurants: Restaurant[] = [
       findImage('terra-gallery-2'),
     ],
   },
+  {
+    id: 'kayaloram-grand',
+    name: 'Kayaloram Grand',
+    cuisine: 'Kerala Seafood',
+    description: 'A beautiful restaurant on the backwaters serving authentic Kerala seafood delicacies.',
+    address: 'Fort Kochi, Kochi, Kerala 682001, India',
+    location: { lat: 9.965, lng: 76.243 },
+    heroImage: findImage('kayaloram-hero'),
+    gallery: [
+      findImage('kayaloram-gallery-1'),
+      findImage('kayaloram-gallery-2'),
+    ],
+  },
+  {
+    id: 'malabar-kitchen',
+    name: 'Malabar Kitchen',
+    cuisine: 'South Indian',
+    description: 'Experience the rich and diverse flavors of Malabar cuisine, from delicious biryanis to traditional thalis.',
+    address: 'Panampilly Nagar, Kochi, Kerala 682036, India',
+    location: { lat: 9.96, lng: 76.29 },
+    heroImage: findImage('malabar-hero'),
+    gallery: [
+      findImage('malabar-gallery-1'),
+      findImage('malabar-gallery-2'),
+    ],
+  },
 ];

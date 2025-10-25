@@ -71,6 +71,42 @@
       "description": "A bowl of handmade pasta from Terra Cotta.",
       "imageUrl": "https://images.unsplash.com/photo-1663094961601-3b639d4699cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwYXN0YSUyMGJvd2x8ZW58MHx8fHwxNzYxMzg5NTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pasta bowl"
+    },
+    {
+      "id": "kayaloram-hero",
+      "description": "A beautiful restaurant on the Kerala backwaters at sunset.",
+      "imageUrl": "https://images.unsplash.com/photo-1614552554228-d5763a89a74a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxrZXJhbGElMjBiYWNrd2F0ZXJzJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3MjI1MjIyMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kerala backwaters"
+    },
+    {
+      "id": "kayaloram-gallery-1",
+      "description": "A delicious plate of Kerala style fish curry.",
+      "imageUrl": "https://images.unsplash.com/photo-1626521574343-a0a9b433e5c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxrZXJhbGElMjBmaXNoJTIwY3Vycnl8ZW58MHx8fHwxNzIyNTIyMjUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fish curry"
+    },
+    {
+      "id": "kayaloram-gallery-2",
+      "description": "Freshly caught grilled fish served on a banana leaf.",
+      "imageUrl": "https://images.unsplash.com/photo-1519622278339-4820a20516b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmllbGxlZCUyMGZpc2glMjBrZXJhbGF8ZW58MHx8fHwxNzIyNTIyMzE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "grilled fish"
+    },
+    {
+      "id": "malabar-hero",
+      "description": "The entrance to a traditional Kerala restaurant with intricate woodwork.",
+      "imageUrl": "https://images.unsplash.com/photo-1615875329868-933339414434?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxrZXJhbGElMjByZXN0YXVyYW50JTIwZW50cmFuY2V8ZW58MHx8fHwxNzIyNTIyNDA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kerala restaurant"
+    },
+    {
+      "id": "malabar-gallery-1",
+      "description": "A traditional Kerala sadhya (feast) served on a banana leaf with many small dishes.",
+      "imageUrl": "https://images.unsplash.com/photo-1606628882586-a57c5ab09138?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxrZXJhbGElMjBzYWRoeWF8ZW58MHx8fHwxNzIyNTIyNDUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kerala sadhya"
+    },
+    {
+      "id": "malabar-gallery-2",
+      "description": "A close-up of a crispy dosa with chutneys.",
+      "imageUrl": "https://images.unsplash.com/photo-1668665632231-318a59966213?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkb3NhJTIwY2h1dG5leXxlbnwwfHx8fDE3MjI1MjI0ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dosa chutney"
     }
   ]
 }
