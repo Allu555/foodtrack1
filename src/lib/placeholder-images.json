@@ -1,3 +1,76 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "verde-hero",
+      "description": "The bright and airy interior of Verde Bistro, with large windows and plenty of plants.",
+      "imageUrl": "https://images.unsplash.com/photo-1526069631228-723c945bea6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyZXN0YXVyYW50JTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYxMzU5NzgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "restaurant interior"
+    },
+    {
+      "id": "verde-gallery-1",
+      "description": "A close-up shot of Verde Bistro's signature avocado toast.",
+      "imageUrl": "https://images.unsplash.com/photo-1505575156881-dd15ae275636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhdm9jYWRvJTIwdG9hc3R8ZW58MHx8fHwxNzYxMzkzODQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "avocado toast"
+    },
+    {
+      "id": "verde-gallery-2",
+      "description": "A colorful salad bowl from Verde Bistro.",
+      "imageUrl": "https://images.unsplash.com/photo-1631311695255-8dde6bf96cb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzYWxhZCUyMGJvd2x8ZW58MHx8fHwxNzYxMzE2MjA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "salad bowl"
+    },
+    {
+      "id": "ember-hero",
+      "description": "The warm, rustic interior of Ember & Ash, with a visible wood-fired oven.",
+      "imageUrl": "https://images.unsplash.com/photo-1649306633940-04e273c43294?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cnVzdGljJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjEzOTUyMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rustic restaurant"
+    },
+    {
+      "id": "ember-gallery-1",
+      "description": "A perfectly grilled steak from Ember & Ash.",
+      "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxncmlsbGVkJTIwc3RlYWt8ZW58MHx8fHwxNzYxMzYyNTE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "grilled steak"
+    },
+    {
+      "id": "ember-gallery-2",
+      "description": "A chef preparing food near the wood-fired oven at Ember & Ash.",
+      "imageUrl": "https://images.unsplash.com/photo-1722152667178-be659e54bffc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjaGVmJTIwY29va2luZ3xlbnwwfHx8fDE3NjEzOTUyMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chef cooking"
+    },
+    {
+      "id": "azure-hero",
+      "description": "A modern, minimalist dining room at Azure Seafood with views of the water.",
+      "imageUrl": "https://images.unsplash.com/photo-1569623803819-2db1d5cf8f16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzZWFmb29kJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjEzOTUyMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "seafood restaurant"
+    },
+    {
+      "id": "azure-gallery-1",
+      "description": "A platter of fresh oysters from Azure Seafood.",
+      "imageUrl": "https://images.unsplash.com/photo-1633321094192-388268512e0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmcmVzaCUyMG95c3RlcnN8ZW58MHx8fHwxNzYxMzM2NDExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fresh oysters"
+    },
+    {
+      "id": "azure-gallery-2",
+      "description": "A beautifully plated fish dish from Azure Seafood.",
+      "imageUrl": "https://images.unsplash.com/photo-1578687388049-079580e6eb2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwbGF0ZWQlMjBmaXNofGVufDB8fHx8MTc2MTM5NTIzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "plated fish"
+    },
+    {
+      "id": "terra-hero",
+      "description": "A cozy, dimly lit interior of Terra Cotta, an Italian restaurant.",
+      "imageUrl": "https://images.unsplash.com/photo-1532117472055-4d0734b51f31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpdGFsaWFuJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjEyODk3MzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "italian restaurant"
+    },
+    {
+      "id": "terra-gallery-1",
+      "description": "A classic pizza margherita from Terra Cotta.",
+      "imageUrl": "https://images.unsplash.com/photo-1682264788192-9abdec90c425?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwaXp6YSUyMG1hcmdoZXJpdGF8ZW58MHx8fHwxNzYxMzk1MjMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pizza margherita"
+    },
+    {
+      "id": "terra-gallery-2",
+      "description": "A bowl of handmade pasta from Terra Cotta.",
+      "imageUrl": "https://images.unsplash.com/photo-1663094961601-3b639d4699cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwYXN0YSUyMGJvd2x8ZW58MHx8fHwxNzYxMzg5NTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pasta bowl"
+    }
+  ]
 }
