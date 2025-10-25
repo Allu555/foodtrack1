@@ -2,7 +2,6 @@
 'use client';
 
 import { notFound } from 'next/navigation';
-import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { restaurants, Restaurant } from '@/lib/restaurants';
@@ -10,8 +9,6 @@ import { Button } from '@/components/ui/button';
 import { ArrowLeft, MapPin } from 'lucide-react';
 import { FavoriteButton } from '@/components/favorite-button';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
-import { generateImage, type GenerateImageOutput } from '@/ai/flows/generate-image-flow';
-import { Skeleton } from '@/components/ui/skeleton';
 
 type RestaurantPageProps = {
   params: {
@@ -25,35 +22,6 @@ const getRestaurant = (id: string): Restaurant | undefined => {
 
 export default function RestaurantPage({ params }: RestaurantPageProps) {
   const restaurant = getRestaurant(params.id);
-  const [heroImageUrl, setHeroImageUrl] = useState<string | null>(null);
-  const [isGenerating, setIsGenerating] = useState(true);
-
-  useEffect(() => {
-    if (restaurant) {
-      // Check if we have a generated image in session storage to avoid re-generating
-      const storedImageUrl = sessionStorage.getItem(`hero-${restaurant.id}`);
-      if (storedImageUrl) {
-        setHeroImageUrl(storedImageUrl);
-        setIsGenerating(false);
-      } else {
-        setIsGenerating(true);
-        const prompt = `A realistic, high-quality photo of the exterior of ${restaurant.name}, a ${restaurant.cuisine} restaurant. ${restaurant.description}`;
-        generateImage({ prompt })
-          .then((result: GenerateImageOutput) => {
-            setHeroImageUrl(result.imageUrl);
-            sessionStorage.setItem(`hero-${restaurant.id}`, result.imageUrl); // Store the generated image URL
-          })
-          .catch(error => {
-            console.error("Failed to generate image:", error);
-            // Fallback to the placeholder if generation fails
-            setHeroImageUrl(restaurant.heroImage.imageUrl);
-          })
-          .finally(() => {
-            setIsGenerating(false);
-          });
-      }
-    }
-  }, [restaurant]);
 
   if (!restaurant) {
     notFound();
@@ -65,19 +33,13 @@ export default function RestaurantPage({ params }: RestaurantPageProps) {
     <div className="bg-background min-h-screen">
       <main className="pb-16">
         <div className="relative h-[60vh] md:h-[75vh] w-full">
-          {isGenerating ? (
-             <Skeleton className="h-full w-full" />
-          ) : (
-            heroImageUrl && (
-                <Image
-                    src={heroImageUrl}
-                    alt={restaurant.name}
-                    fill
-                    className="object-cover"
-                    priority
-                />
-            )
-          )}
+          <Image
+              src={restaurant.heroImage.imageUrl}
+              alt={restaurant.name}
+              fill
+              className="object-cover"
+              priority
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
 
           <div className="absolute top-0 left-0 w-full p-4 flex justify-between items-center z-10">
