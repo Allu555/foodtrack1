@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect, useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
@@ -21,47 +20,33 @@ interface MapProps {
 }
 
 export function RestaurantMap({ restaurants, className }: MapProps) {
-    const [map, setMap] = useState<L.Map | null>(null);
-
-    const [center, setCenter] = useState<[number, number]>([37.403, -122.083]);
-
-    useEffect(() => {
-        if (restaurants && restaurants.length > 0) {
-            const latitudes = restaurants.map(r => r.location.lat);
-            const longitudes = restaurants.map(r => r.location.lng);
-            const centerLat = latitudes.reduce((a, b) => a + b, 0) / latitudes.length;
-            const centerLng = longitudes.reduce((a, b) => a + b, 0) / longitudes.length;
-            
-            const newCenter: [number, number] = [centerLat, centerLng];
-            setCenter(newCenter);
-
-            if (map) {
-                map.setView(newCenter);
-            }
-        }
-    }, [restaurants, map]);
-
     if (!restaurants || restaurants.length === 0) {
         return <div className={className}>No restaurants to display on map.</div>;
     }
 
-  return (
-    <MapContainer whenCreated={setMap} center={center} zoom={10} scrollWheelZoom={false} className={className}>
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-      {restaurants.map(restaurant => (
-        <Marker key={restaurant.id} position={[restaurant.location.lat, restaurant.location.lng]}>
-          <Popup>
-            <div className="font-bold">{restaurant.name}</div>
-            <p>{restaurant.cuisine}</p>
-            <Link href={`/restaurants/${restaurant.id}`} className="text-primary hover:underline">
-              View Details
-            </Link>
-          </Popup>
-        </Marker>
-      ))}
-    </MapContainer>
-  );
+    const latitudes = restaurants.map(r => r.location.lat);
+    const longitudes = restaurants.map(r => r.location.lng);
+    const centerLat = latitudes.reduce((a, b) => a + b, 0) / latitudes.length;
+    const centerLng = longitudes.reduce((a, b) => a + b, 0) / longitudes.length;
+    const center: [number, number] = [centerLat, centerLng];
+
+    return (
+        <MapContainer center={center} zoom={10} scrollWheelZoom={false} className={className}>
+            <TileLayer
+                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            {restaurants.map(restaurant => (
+                <Marker key={restaurant.id} position={[restaurant.location.lat, restaurant.location.lng]}>
+                    <Popup>
+                        <div className="font-bold">{restaurant.name}</div>
+                        <p>{restaurant.cuisine}</p>
+                        <Link href={`/restaurants/${restaurant.id}`} className="text-primary hover:underline">
+                        View Details
+                        </Link>
+                    </Popup>
+                </Marker>
+            ))}
+        </MapContainer>
+    );
 }
