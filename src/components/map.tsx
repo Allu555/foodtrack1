@@ -10,6 +10,19 @@ import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png';
 import markerIcon from 'leaflet/dist/images/marker-icon.png';
 import markerShadow from 'leaflet/dist/images/marker-shadow.png';
 
+// Configure the default icon for Leaflet
+// This needs to be done outside the component to prevent issues with Next.js image imports.
+const defaultIcon = L.icon({
+    iconUrl: markerIcon.src,
+    iconRetinaUrl: markerIcon2x.src,
+    shadowUrl: markerShadow.src,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+});
+
+
 interface MapProps {
   restaurants: Restaurant[];
   className?: string;
@@ -18,17 +31,6 @@ interface MapProps {
 export function RestaurantMap({ restaurants, className }: MapProps) {
     const mapRef = useRef<L.Map | null>(null);
     const containerRef = useRef<HTMLDivElement>(null);
-
-    // Create a custom icon to avoid issues with default icon paths in Next.js
-    const defaultIcon = L.icon({
-        iconUrl: markerIcon.src,
-        iconRetinaUrl: markerIcon2x.src,
-        shadowUrl: markerShadow.src,
-        iconSize: [25, 41],
-        iconAnchor: [12, 41],
-        popupAnchor: [1, -34],
-        shadowSize: [41, 41]
-    });
 
     useEffect(() => {
         if (mapRef.current || !containerRef.current) return;
@@ -73,7 +75,7 @@ export function RestaurantMap({ restaurants, className }: MapProps) {
                 mapRef.current = null;
             }
         };
-    }, [restaurants, defaultIcon]);
+    }, [restaurants]);
 
     return <div ref={containerRef} className={className} />;
 }
