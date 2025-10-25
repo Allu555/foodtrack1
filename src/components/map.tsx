@@ -1,9 +1,9 @@
-
 "use client";
 
 import { useEffect, useRef } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+import 'leaflet-routing-machine';
 import { Restaurant } from '@/lib/restaurants';
 
 const defaultIcon = L.icon({
@@ -16,7 +16,6 @@ const defaultIcon = L.icon({
     shadowSize: [41, 41]
 });
 
-
 interface MapProps {
   restaurants: Restaurant[];
   className?: string;
@@ -25,6 +24,7 @@ interface MapProps {
 export function RestaurantMap({ restaurants, className }: MapProps) {
     const mapRef = useRef<L.Map | null>(null);
     const containerRef = useRef<HTMLDivElement>(null);
+    const routingControlRef = useRef<L.Routing.Control | null>(null);
 
     useEffect(() => {
         if (mapRef.current || !containerRef.current) return;
@@ -35,21 +35,61 @@ export function RestaurantMap({ restaurants, className }: MapProps) {
         const centerLng = longitudes.length > 0 ? longitudes.reduce((a, b) => a + b, 0) / longitudes.length : 76.242;
         const center: [number, number] = [centerLat, centerLng];
 
-        const map = L.map(containerRef.current).setView(center, 10);
+        const map = L.map(containerRef.current, {
+            // @ts-ignore
+            zoomControl: false // This will be added later
+        }).setView(center, 10);
         mapRef.current = map;
+        
+        L.control.zoom({ position: 'bottomright' }).addTo(map);
 
         L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
         }).addTo(map);
+        
+        // Expose a function to the window object to handle directions
+        // This is a workaround to call component logic from the string-based popup
+        (window as any).showDirections = (lat: number, lng: number) => {
+            if (!mapRef.current) return;
+            const map = mapRef.current;
+
+            if (routingControlRef.current) {
+                map.removeControl(routingControlRef.current);
+            }
+            
+            navigator.geolocation.getCurrentPosition(position => {
+                const userLat = position.coords.latitude;
+                const userLng = position.coords.longitude;
+                
+                const control = L.Routing.control({
+                    waypoints: [
+                        L.latLng(userLat, userLng),
+                        L.latLng(lat, lng)
+                    ],
+                    routeWhileDragging: true,
+                    show: false, // We will show a summary, but not the full itinerary
+                    lineOptions: {
+                        styles: [{ color: '#64B5F6', opacity: 1, weight: 5 }]
+                    },
+                    createMarker: function() { return null; } // Hide default start/end markers
+                }).addTo(map);
+                
+                routingControlRef.current = control;
+
+            }, (error) => {
+                console.error("Error getting user location", error);
+                alert("Could not get your location. Please ensure you have location services enabled.");
+            });
+        };
+
 
         restaurants.forEach(restaurant => {
-            const directionsUrl = `https://www.google.com/maps/search/?api=1&query=${restaurant.location.lat},${restaurant.location.lng}`;
             const popupContent = `
-                <div class="font-bold">${restaurant.name}</div>
-                <p class="!m-0">${restaurant.cuisine}</p>
-                <div class="flex flex-col gap-1 mt-2">
-                    <a href="/restaurants/${restaurant.id}" class="text-primary hover:underline" style="font-size: 0.875rem;">View Details</a>
-                    <a href="${directionsUrl}" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline" style="font-size: 0.875rem;">View on Google Maps</a>
+                <div class="font-bold text-lg mb-1">${restaurant.name}</div>
+                <p class="!m-0 text-sm text-muted-foreground">${restaurant.cuisine}</p>
+                <div class="flex flex-col gap-1 mt-3">
+                    <a href="/restaurants/${restaurant.id}" class="text-primary hover:underline" style="font-size: 0.9rem;">View Details</a>
+                    <button onclick="window.showDirections(${restaurant.location.lat}, ${restaurant.location.lng})" class="text-primary hover:underline text-left" style="font-size: 0.9rem; background: none; border: none; padding: 0; cursor: pointer;">Get Directions</button>
                 </div>
             `;
             L.marker([restaurant.location.lat, restaurant.location.lng], { icon: defaultIcon })
@@ -68,6 +108,8 @@ export function RestaurantMap({ restaurants, className }: MapProps) {
                 mapRef.current.remove();
                 mapRef.current = null;
             }
+            // Clean up the global function
+            delete (window as any).showDirections;
         };
     }, [restaurants]);
 
