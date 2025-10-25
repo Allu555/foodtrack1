@@ -40,10 +40,14 @@ export function RestaurantMap({ restaurants, className }: MapProps) {
         }).addTo(map);
 
         restaurants.forEach(restaurant => {
+            const directionsUrl = `https://www.google.com/maps/search/?api=1&query=${restaurant.location.lat},${restaurant.location.lng}`;
             const popupContent = `
                 <div class="font-bold">${restaurant.name}</div>
-                <p>${restaurant.cuisine}</p>
-                <a href="/restaurants/${restaurant.id}" class="text-primary hover:underline">View Details</a>
+                <p class="!m-0">${restaurant.cuisine}</p>
+                <div class="flex flex-col gap-1 mt-2">
+                    <a href="/restaurants/${restaurant.id}" class="text-primary hover:underline" style="font-size: 0.875rem;">View Details</a>
+                    <a href="${directionsUrl}" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline" style="font-size: 0.875rem;">View on Google Maps</a>
+                </div>
             `;
             L.marker([restaurant.location.lat, restaurant.location.lng])
                 .addTo(map)
