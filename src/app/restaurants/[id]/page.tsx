@@ -1,4 +1,5 @@
 
+
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -7,6 +8,8 @@ import { Button } from '@/components/ui/button';
 import { ArrowLeft, MapPin, Star } from 'lucide-react';
 import { FavoriteButton } from '@/components/favorite-button';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
+import { Badge } from '@/components/ui/badge';
+import { cn } from '@/lib/utils';
 
 type RestaurantPageProps = {
   params: {
@@ -54,7 +57,19 @@ export default function RestaurantPage({ params }: RestaurantPageProps) {
             <h1 className="text-5xl md:text-7xl font-bold tracking-tighter font-headline">
               {restaurant.name}
             </h1>
-            <p className="text-xl md:text-2xl text-primary-foreground/80">{restaurant.cuisine}</p>
+            <div className="flex items-center gap-4 mt-2">
+              <p className="text-xl md:text-2xl text-primary-foreground/80">{restaurant.cuisine}</p>
+               <Badge 
+                className={cn(
+                  "text-base",
+                  restaurant.category === 'Veg' && 'bg-green-600/90 text-white',
+                  restaurant.category === 'Non-Veg' && 'bg-red-600/90 text-white',
+                  restaurant.category === 'Mixed' && 'bg-yellow-600/90 text-white'
+                )}
+              >
+                {restaurant.category}
+              </Badge>
+            </div>
           </div>
         </div>
 
@@ -118,3 +133,5 @@ export default function RestaurantPage({ params }: RestaurantPageProps) {
     </div>
   );
 }
+
+    

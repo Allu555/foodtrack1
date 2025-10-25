@@ -1,3 +1,4 @@
+
 "use client";
 
 import Image from 'next/image';
@@ -8,6 +9,7 @@ import { cn } from '@/lib/utils';
 import { Button } from './ui/button';
 import { MapPin } from 'lucide-react';
 import Link from 'next/link';
+import { Badge } from './ui/badge';
 
 interface RestaurantCardProps {
   restaurant: Restaurant;
@@ -31,6 +33,16 @@ export function RestaurantCard({ restaurant, className }: RestaurantCardProps) {
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+             <Badge 
+              className={cn(
+                "absolute bottom-2 left-2",
+                restaurant.category === 'Veg' && 'bg-green-600/90 text-white',
+                restaurant.category === 'Non-Veg' && 'bg-red-600/90 text-white',
+                restaurant.category === 'Mixed' && 'bg-yellow-600/90 text-white'
+              )}
+            >
+              {restaurant.category}
+            </Badge>
           </div>
         </Link>
         <FavoriteButton restaurantId={restaurant.id} className="absolute top-2 right-2" />
@@ -50,3 +62,5 @@ export function RestaurantCard({ restaurant, className }: RestaurantCardProps) {
     </Card>
   );
 }
+
+    
