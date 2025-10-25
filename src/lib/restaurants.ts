@@ -264,7 +264,7 @@ const allRestaurants: Restaurant[] = [
     phone: '+91 9188 120 270',
     location: { lat: 9.967, lng: 76.243 },
     heroImage: findImage('new-spot-33-hero'),
-    gallery: [findImage('new-spot-33-gallery-1'), findImage('new-spot-33-gallery-2')],
+    gallery: [findImage('new-spot-33-gallery-1'), findImage('kashi-cafe-gallery-2')],
   },
   {
     id: 'qissa-cafe',
@@ -528,7 +528,7 @@ const allRestaurants: Restaurant[] = [
     phone: '+91 9072 333 433',
     location: { lat: 9.963, lng: 76.295 },
     heroImage: findImage('new-spot-33-hero'),
-    gallery: [findImage('new-spot-33-gallery-1'), findImage('new-spot-33-gallery-2')],
+    gallery: [findImage('new-spot-33-gallery-1'), findImage('kashi-cafe-gallery-2')],
   },
   {
     id: 'raw-squeeze',
@@ -732,4 +732,5 @@ export const restaurants: Restaurant[] = allRestaurants.filter(r => r.address.in
     
 
     
+
 
