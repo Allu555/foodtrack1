@@ -5,13 +5,12 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Restaurant } from '@/lib/restaurants';
 
-// Manually import the icon images
+// Manually import the icon images and configure the default icon for Leaflet
+// This resolves issues with Next.js's asset handling for third-party libraries.
 import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png';
 import markerIcon from 'leaflet/dist/images/marker-icon.png';
 import markerShadow from 'leaflet/dist/images/marker-shadow.png';
 
-// Configure the default icon for Leaflet
-// This needs to be done outside the component to prevent issues with Next.js image imports.
 const defaultIcon = L.icon({
     iconUrl: markerIcon.src,
     iconRetinaUrl: markerIcon2x.src,
@@ -58,7 +57,7 @@ export function RestaurantMap({ restaurants, className }: MapProps) {
                     <a href="${directionsUrl}" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline" style="font-size: 0.875rem;">View on Google Maps</a>
                 </div>
             `;
-            L.marker([restaurant.location.lat, restaurant.location.lng], { icon: defaultIcon }) // Use the custom icon here
+            L.marker([restaurant.location.lat, restaurant.location.lng], { icon: defaultIcon })
                 .addTo(map)
                 .bindPopup(popupContent);
         });
