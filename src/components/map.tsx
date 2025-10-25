@@ -25,13 +25,14 @@ export function RestaurantMap({ restaurants, className }: MapProps) {
     const containerRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
+        // This is the cleanup function that will be called when the component unmounts.
         return () => {
             if (mapRef.current) {
-                mapRef.current.remove();
+                mapRef.current.remove(); // This properly destroys the Leaflet map instance.
                 mapRef.current = null;
             }
         };
-    }, []);
+    }, []); // The empty dependency array ensures this effect runs only once on mount and cleanup runs on unmount.
 
     if (!restaurants || restaurants.length === 0) {
         return <div className={className}>No restaurants to display on map.</div>;
