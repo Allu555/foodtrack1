@@ -9,6 +9,7 @@ export interface Restaurant {
   address: string;
   phone: string;
   category: 'Veg' | 'Non-Veg' | 'Mixed';
+  orderOnlineUrl?: string;
   location: {
     lat: number;
     lng: number;
@@ -101,6 +102,7 @@ const allRestaurants: Restaurant[] = [
     description: 'A beautiful restaurant on the backwaters serving authentic Kerala seafood delicacies.',
     address: 'Fort Kochi, Kochi, Kerala 682001, India',
     phone: '+91 484 221 7777',
+    orderOnlineUrl: 'https://www.zomato.com/kochi/kayaloram-grand-fort-kochi-kochi',
     location: { lat: 9.965, lng: 76.243 },
     heroImage: findImage('kayaloram-hero'),
     gallery: [
@@ -116,6 +118,7 @@ const allRestaurants: Restaurant[] = [
     description: 'Experience the rich and diverse flavors of Malabar cuisine, from delicious biryanis to traditional thalis.',
     address: 'Panampilly Nagar, Kochi, Kerala 682036, India',
     phone: '+91 484 231 4444',
+    orderOnlineUrl: 'https://www.swiggy.com/restaurants/malabar-kitchen-panampilly-nagar-kochi-59092',
     location: { lat: 9.96, lng: 76.29 },
     heroImage: findImage('malabar-hero'),
     gallery: [
@@ -146,6 +149,7 @@ const allRestaurants: Restaurant[] = [
     description: 'Authentic North Indian food with a specialty in Kathi Rolls. A local favorite in Fort Kochi.',
     address: '1/293, Lilly Street, Fort Kochi, Kochi, Kerala 682001, India',
     phone: '+91 9847 519 059',
+    orderOnlineUrl: 'https://www.zomato.com/kochi/dal-roti-fort-kochi-kochi',
     location: { lat: 9.966, lng: 76.242 },
     heroImage: findImage('dal-roti-hero'),
     gallery: [
@@ -176,6 +180,7 @@ const allRestaurants: Restaurant[] = [
     description: 'A legendary name in Kerala cuisine, famous for its traditional flavors and biryani.',
     address: 'Lulu Mall, Edapally, Kochi, Kerala 682024, India',
     phone: '+91 484 402 3333',
+    orderOnlineUrl: 'https://www.swiggy.com/restaurants/paragon-restaurant-edapally-kochi-69680',
     location: { lat: 10.027, lng: 76.308 },
     heroImage: findImage('paragon-hero'),
     gallery: [
@@ -727,3 +732,4 @@ export const restaurants: Restaurant[] = allRestaurants.filter(r => r.address.in
     
 
     
+

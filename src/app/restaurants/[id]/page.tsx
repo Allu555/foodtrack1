@@ -1,11 +1,12 @@
 
 
+
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { restaurants, Restaurant } from '@/lib/restaurants';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft, MapPin, Phone, Star } from 'lucide-react';
+import { ArrowLeft, MapPin, Phone, Star, ShoppingCart } from 'lucide-react';
 import { FavoriteButton } from '@/components/favorite-button';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { Badge } from '@/components/ui/badge';
@@ -142,13 +143,21 @@ export default function RestaurantPage({ params }: RestaurantPageProps) {
                       </div>
                   </div>
                </div>
-                <div className="mt-6">
+                <div className="mt-6 flex flex-col gap-2">
                     <Button asChild size="lg" className="w-full bg-accent text-accent-foreground hover:bg-accent/90">
                         <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
                             <MapPin className="mr-2 h-5 w-5" />
                             Get Directions
                         </a>
                     </Button>
+                    {restaurant.orderOnlineUrl && (
+                        <Button asChild size="lg" className="w-full">
+                            <a href={restaurant.orderOnlineUrl} target="_blank" rel="noopener noreferrer">
+                                <ShoppingCart className="mr-2 h-5 w-5" />
+                                Order Online
+                            </a>
+                        </Button>
+                    )}
                 </div>
             </div>
           </div>
