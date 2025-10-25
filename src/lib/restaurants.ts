@@ -17,7 +17,14 @@ export interface Restaurant {
 const findImage = (id: string): ImagePlaceholder => {
     const image = PlaceHolderImages.find(img => img.id === id);
     if (!image) {
-        throw new Error(`Image with id ${id} not found`);
+        // Fallback for missing images to prevent crashes
+        console.error(`Image with id ${id} not found`);
+        return {
+          id: 'fallback',
+          description: 'Image not found',
+          imageUrl: 'https://placehold.co/800x600?text=Image+Not+Found',
+          imageHint: 'placeholder'
+        };
     }
     return image;
 }
