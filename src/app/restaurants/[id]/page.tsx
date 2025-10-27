@@ -3,6 +3,7 @@
 
 
 
+
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -145,7 +146,7 @@ export default function RestaurantPage({ params }: RestaurantPageProps) {
                       <Star className="h-6 w-6 mt-1 text-primary"/>
                       <div>
                           <p className="font-semibold text-lg">Reviews</p>
-                          <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:underline">View on Google Maps</a>
+                          <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:underline">View Reviews</a>
                       </div>
                   </div>
                </div>
