@@ -10,6 +10,8 @@ export interface Restaurant {
   phone: string;
   category: 'Veg' | 'Non-Veg' | 'Mixed';
   orderOnlineUrl?: string;
+  instagramUrl?: string;
+  facebookUrl?: string;
   location: {
     lat: number;
     lng: number;
@@ -61,7 +63,7 @@ const allRestaurants: Restaurant[] = [
     heroImage: findImage('ember-hero'),
     gallery: [
       findImage('ember-gallery-1'),
-      findImage('ember-gallery-2'),
+      findImage('wood-fired-pizza'),
     ],
   },
   {
@@ -103,6 +105,8 @@ const allRestaurants: Restaurant[] = [
     address: 'Fort Kochi, Kochi, Kerala 682001, India',
     phone: '+91 484 221 7777',
     orderOnlineUrl: 'https://www.zomato.com/kochi/kayaloram-grand-fort-kochi-kochi',
+    instagramUrl: 'https://www.instagram.com/kayaloram.grand/',
+    facebookUrl: 'https://www.facebook.com/kayaloramgrand/',
     location: { lat: 9.965, lng: 76.243 },
     heroImage: findImage('kayaloram-hero'),
     gallery: [
@@ -150,6 +154,7 @@ const allRestaurants: Restaurant[] = [
     address: '1/293, Lilly Street, Fort Kochi, Kochi, Kerala 682001, India',
     phone: '+91 9847 519 059',
     orderOnlineUrl: 'https://www.zomato.com/kochi/dal-roti-fort-kochi-kochi',
+    facebookUrl: 'https://www.facebook.com/DalRotiKochi/',
     location: { lat: 9.966, lng: 76.242 },
     heroImage: findImage('dal-roti-hero'),
     gallery: [
@@ -165,11 +170,12 @@ const allRestaurants: Restaurant[] = [
     description: 'A unique space that combines an art gallery with a beautiful cafe, known for its breakfast and homemade cakes.',
     address: 'Burgher Street, Fort Nagar, Fort Kochi, Kochi, Kerala 682001, India',
     phone: '+91 484 221 5769',
+    instagramUrl: 'https://www.instagram.com/kashiartcafe/',
     location: { lat: 9.964, lng: 76.244 },
     heroImage: findImage('kashi-cafe-hero'),
     gallery: [
       findImage('kashi-cafe-gallery-1'),
-      findImage('kashi-cafe-gallery-2'),
+      findImage('healthy-sandwich'),
     ],
   },
   {
@@ -264,7 +270,7 @@ const allRestaurants: Restaurant[] = [
     phone: '+91 9188 120 270',
     location: { lat: 9.967, lng: 76.243 },
     heroImage: findImage('new-spot-33-hero'),
-    gallery: [findImage('new-spot-33-gallery-1'), findImage('kashi-cafe-gallery-2')],
+    gallery: [findImage('new-spot-33-gallery-1'), findImage('cafe-reading')],
   },
   {
     id: 'qissa-cafe',
@@ -528,7 +534,7 @@ const allRestaurants: Restaurant[] = [
     phone: '+91 9072 333 433',
     location: { lat: 9.963, lng: 76.295 },
     heroImage: findImage('new-spot-33-hero'),
-    gallery: [findImage('new-spot-33-gallery-1'), findImage('kashi-cafe-gallery-2')],
+    gallery: [findImage('new-spot-33-gallery-1'), findImage('cafe-reading')],
   },
   {
     id: 'raw-squeeze',
@@ -732,5 +738,6 @@ export const restaurants: Restaurant[] = allRestaurants.filter(r => r.address.in
     
 
     
+
 
 

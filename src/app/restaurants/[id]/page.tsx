@@ -2,12 +2,13 @@
 
 
 
+
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { restaurants, Restaurant } from '@/lib/restaurants';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft, MapPin, Phone, Star, ShoppingCart } from 'lucide-react';
+import { ArrowLeft, MapPin, Phone, Star, ShoppingCart, Instagram, Facebook } from 'lucide-react';
 import { FavoriteButton } from '@/components/favorite-button';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { Badge } from '@/components/ui/badge';
@@ -164,6 +165,30 @@ export default function RestaurantPage({ params }: RestaurantPageProps) {
                         </Button>
                     )}
                 </div>
+
+                {(restaurant.instagramUrl || restaurant.facebookUrl) && (
+                  <div className="mt-8">
+                     <h3 className="text-2xl font-bold font-headline mb-4 text-center">Follow Us</h3>
+                     <div className="flex justify-center gap-4">
+                        {restaurant.instagramUrl && (
+                          <Button asChild variant="ghost" size="icon">
+                            <a href={restaurant.instagramUrl} target="_blank" rel="noopener noreferrer">
+                              <Instagram className="h-7 w-7 text-primary" />
+                              <span className="sr-only">Instagram</span>
+                            </a>
+                          </Button>
+                        )}
+                        {restaurant.facebookUrl && (
+                           <Button asChild variant="ghost" size="icon">
+                            <a href={restaurant.facebookUrl} target="_blank" rel="noopener noreferrer">
+                              <Facebook className="h-7 w-7 text-primary" />
+                              <span className="sr-only">Facebook</span>
+                            </a>
+                          </Button>
+                        )}
+                     </div>
+                  </div>
+                )}
             </div>
           </div>
         </div>
